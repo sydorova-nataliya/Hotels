@@ -1,0 +1,583 @@
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\appsettings.Development.json
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\appsettings.json
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\hotelcourseworkV2.staticwebassets.runtime.json
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\hotelcourseworkV2.exe
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\hotelcourseworkV2.deps.json
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\hotelcourseworkV2.runtimeconfig.json
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\hotelcourseworkV2.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\hotelcourseworkV2.pdb
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Humanizer.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\System.Drawing.Common.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\System.Runtime.Caching.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\System.Security.Permissions.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\System.Windows.Extensions.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\obj\Debug\net6.0\hotelcourseworkV2.csproj.AssemblyReference.cache
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\obj\Debug\net6.0\hotelcourseworkV2.GeneratedMSBuildEditorConfig.editorconfig
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\obj\Debug\net6.0\hotelcourseworkV2.AssemblyInfoInputs.cache
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\obj\Debug\net6.0\hotelcourseworkV2.AssemblyInfo.cs
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\obj\Debug\net6.0\hotelcourseworkV2.csproj.CoreCompileInputs.cache
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\obj\Debug\net6.0\hotelcourseworkV2.MvcApplicationPartsAssemblyInfo.cs
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\obj\Debug\net6.0\hotelcourseworkV2.MvcApplicationPartsAssemblyInfo.cache
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\obj\Debug\net6.0\hotelcourseworkV2.RazorAssemblyInfo.cache
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\obj\Debug\net6.0\hotelcourseworkV2.RazorAssemblyInfo.cs
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\obj\Debug\net6.0\staticwebassets.build.json
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\obj\Debug\net6.0\staticwebassets.development.json
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\obj\Debug\net6.0\scopedcss\bundle\hotelcourseworkV2.styles.css
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\obj\Debug\net6.0\scopedcss\projectbundle\hotelcourseworkV2.bundle.scp.css
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\obj\Debug\net6.0\hotelcourseworkV2.csproj.CopyComplete
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\obj\Debug\net6.0\hotelcourseworkV2.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\obj\Debug\net6.0\refint\hotelcourseworkV2.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\obj\Debug\net6.0\hotelcourseworkV2.pdb
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\obj\Debug\net6.0\hotelcourseworkV2.genruntimeconfig.cache
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\obj\Debug\net6.0\ref\hotelcourseworkV2.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Npgsql.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\MessagePack.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\MessagePack.Annotations.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.Build.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.Build.Framework.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.NET.StringTools.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Newtonsoft.Json.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\NuGet.Common.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\NuGet.Configuration.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\NuGet.Frameworks.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\NuGet.LibraryModel.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\NuGet.Packaging.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\NuGet.ProjectModel.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\NuGet.Protocol.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\NuGet.Versioning.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\System.Composition.AttributedModel.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\System.Composition.Convention.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\System.Composition.Hosting.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\System.Composition.Runtime.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\System.Composition.TypedParts.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\System.Reflection.MetadataLoadContext.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Mono.TextTemplating.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\System.CodeDom.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\System.Text.Json.dll
+X:\program\Code\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\appsettings.Development.json
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\appsettings.json
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\hotelcourseworkV2.staticwebassets.runtime.json
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\hotelcourseworkV2.exe
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\hotelcourseworkV2.deps.json
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\hotelcourseworkV2.runtimeconfig.json
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\hotelcourseworkV2.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\hotelcourseworkV2.pdb
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Humanizer.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\MessagePack.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\MessagePack.Annotations.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.Build.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.Build.Framework.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.NET.StringTools.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Mono.TextTemplating.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Npgsql.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\NuGet.Common.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\NuGet.Configuration.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\NuGet.Frameworks.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\NuGet.LibraryModel.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\NuGet.Packaging.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\NuGet.ProjectModel.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\NuGet.Protocol.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\NuGet.Versioning.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\System.CodeDom.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\System.Composition.AttributedModel.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\System.Composition.Convention.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\System.Composition.Hosting.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\System.Composition.Runtime.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\System.Composition.TypedParts.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\System.Reflection.MetadataLoadContext.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\System.Text.Json.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\obj\Debug\net6.0\hotelcourseworkV2.csproj.AssemblyReference.cache
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\obj\Debug\net6.0\hotelcourseworkV2.GeneratedMSBuildEditorConfig.editorconfig
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\obj\Debug\net6.0\hotelcourseworkV2.AssemblyInfoInputs.cache
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\obj\Debug\net6.0\hotelcourseworkV2.AssemblyInfo.cs
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\obj\Debug\net6.0\hotelcourseworkV2.csproj.CoreCompileInputs.cache
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\obj\Debug\net6.0\hotelcourseworkV2.MvcApplicationPartsAssemblyInfo.cs
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\obj\Debug\net6.0\hotelcourseworkV2.MvcApplicationPartsAssemblyInfo.cache
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\obj\Debug\net6.0\hotelcourseworkV2.RazorAssemblyInfo.cache
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\obj\Debug\net6.0\hotelcourseworkV2.RazorAssemblyInfo.cs
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\obj\Debug\net6.0\staticwebassets\msbuild.hotelcourseworkV2.Microsoft.AspNetCore.StaticWebAssets.props
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\obj\Debug\net6.0\staticwebassets\msbuild.build.hotelcourseworkV2.props
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.hotelcourseworkV2.props
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.hotelcourseworkV2.props
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\obj\Debug\net6.0\staticwebassets.pack.json
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\obj\Debug\net6.0\staticwebassets.build.json
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\obj\Debug\net6.0\staticwebassets.development.json
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\obj\Debug\net6.0\scopedcss\bundle\hotelcourseworkV2.styles.css
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\obj\Debug\net6.0\scopedcss\projectbundle\hotelcourseworkV2.bundle.scp.css
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\obj\Debug\net6.0\hotelcourseworkV2.csproj.CopyComplete
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\obj\Debug\net6.0\hotelcourseworkV2.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\obj\Debug\net6.0\refint\hotelcourseworkV2.dll
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\obj\Debug\net6.0\hotelcourseworkV2.pdb
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\obj\Debug\net6.0\hotelcourseworkV2.genruntimeconfig.cache
+D:\ОНАЗ 3\2 семестр\к\hotelcourseworkV2\hotelcourseworkV2\obj\Debug\net6.0\ref\hotelcourseworkV2.dll

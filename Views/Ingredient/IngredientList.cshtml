@@ -1,0 +1,44 @@
+﻿@model IEnumerable<hotelcourseworkV2.Models.Ingredient>
+
+@{
+    ViewData["Title"] = "IngredientList";
+}
+
+
+<div class="container">
+    <h1>Список ингредиентов</h1>
+
+    <p>
+        <a asp-controller="Ingredient" asp-action="IngridientCreate" class="btn btn-primary">Добавить ингредиенты</a>
+    </p>
+
+    <div class="card">
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>@Html.DisplayNameFor(model => model.Title)</th>
+                            <th>@Html.DisplayNameFor(model => model.Quantity)</th>
+                            <th>@Html.DisplayNameFor(model => model.Unit)</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@Html.DisplayFor(modelItem => item.Title)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Quantity)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Unit)</td>
+                                <td>
+                                    <a asp-controller = "IngridientDelete" asp-action="IngridientDelete" asp-route-id="@item.Id" class="btn btn-danger">Удалить</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

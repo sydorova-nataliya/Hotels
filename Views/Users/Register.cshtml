@@ -1,0 +1,71 @@
+﻿@model hotelcourseworkV2.ViewModels.CreateUserViewModel
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <h2 class="text-center">Добавить пользователя</h2>
+
+            @using (Html.BeginForm("Create", "Users", FormMethod.Post, new { @class = "needs-validation", novalidate = "true" }))
+            {
+                @Html.AntiForgeryToken()
+
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Name)
+                    @Html.TextBoxFor(m => m.Name, new { @class = "form-control", required = "required" })
+                    @Html.ValidationMessageFor(m => m.Name)
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(m => m.LastName)
+                    @Html.TextBoxFor(m => m.LastName, new { @class = "form-control", required = "required" })
+                    @Html.ValidationMessageFor(m => m.LastName)
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(m => m.MiddleName)
+                    @Html.TextBoxFor(m => m.MiddleName, new { @class = "form-control", required = "required" })
+                    @Html.ValidationMessageFor(m => m.MiddleName)
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Email)
+                    @Html.TextBoxFor(m => m.Email, new { @class = "form-control", required = "required", type = "email" })
+                    @Html.ValidationMessageFor(m => m.Email)
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Phone)
+                    @Html.TextBoxFor(m => m.Phone, new { @class = "form-control", required = "required" })
+                    @Html.ValidationMessageFor(m => m.Phone)
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Password)
+                    @Html.PasswordFor(m => m.Password, new { @class = "form-control", required = "required" })
+                    @Html.ValidationMessageFor(m => m.Password)
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(m => m.ConfirmPassword)
+                    @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control", required = "required" })
+                    @Html.ValidationMessageFor(m => m.ConfirmPassword)
+                </div>
+
+                <div class="form-group">
+                   @Html.LabelFor(m => m.RoleName)
+                   @{
+                      var roleList = new SelectList(Model.RoleList, "Value", "Text");
+                      var selectedRole = roleList.FirstOrDefault(r => r.Text == "Зарегистрированный клиент").Value;
+                    }
+                    @Html.DropDownListFor(m => m.RoleName, new SelectList(new[] { selectedRole }), "-- Выбрать роль --", new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.RoleName)
+                </div>
+
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary">Создать</button>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

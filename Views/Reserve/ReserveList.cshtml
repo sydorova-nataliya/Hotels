@@ -1,0 +1,52 @@
+﻿@model IEnumerable<hotelcourseworkV2.Models.ReserveRoom>
+
+@{
+    ViewData["Title"] = "ReserveList";
+}
+
+<div class="container mt-2">
+    @if (User.IsInRole("Сотрудник рецепции"))
+    {
+        <p>
+            <a href="@Url.Action("ReserveCreate","Reserve")" class="btn btn-primary">Создать бронь</a>
+        </p>
+    }
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Список броней</h5>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Гость</th>
+                        <th>Тип комнаты</th>
+                        <th>Дата бронирования</th>
+                        <th>Дата заселения</th>
+                        <th>Дата выселения</th>
+                        <th>Цена</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@Html.DisplayFor(modelItem => item.Quest.UserName)</td>
+                            <td>@Html.DisplayFor(modelItem => item.HotelTypeRoom.typeRoom.Name)</td>
+                            <td>@Html.DisplayFor(modelItem => item.BookingDate)</td>
+                            <td>@Html.DisplayFor(modelItem => item.ArrivalDate)</td>
+                            <td>@Html.DisplayFor(modelItem => item.DepartureDate)</td>
+                            <td>@Html.DisplayFor(modelItem => item.Price)</td>
+                            <td>
+                                <a href="@Url.Action("ReserveDelete","Reserve", new { id = item.Id })" class="btn btn-danger">Выселить</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+
+

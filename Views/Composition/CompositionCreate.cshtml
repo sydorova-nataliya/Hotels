@@ -1,0 +1,51 @@
+﻿@model hotelcourseworkV2.Models.Composition
+
+@{
+    ViewData["Title"] = "CompositionCreate";
+}
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <h4>Состав</h4>
+            <hr />
+
+            <form asp-action="CompositionCreate" class="needs-validation" novalidate>
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <div class="form-group">
+                    <label asp-for="DishId" class="control-label"></label>
+                    <select asp-for="DishId" class="form-control" asp-items="ViewBag.DishId"></select>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="IngredientId" class="control-label"></label>
+                    <select asp-for="IngredientId" class="form-control" asp-items="ViewBag.IngredientId"></select>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Quantity" class="control-label"></label>
+                    <input asp-for="Quantity" class="form-control" />
+                    <span asp-validation-for="Quantity" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Unit" class="control-label"></label>
+                    <input asp-for="Unit" class="form-control" />
+                    <span asp-validation-for="Unit" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <input type="submit" value="Создать" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

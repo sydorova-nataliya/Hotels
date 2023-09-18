@@ -1,0 +1,39 @@
+﻿@model IEnumerable<hotelcourseworkV2.Models.Composition>
+
+
+<div class="container">
+    <h1>Состав</h1>
+
+    <p>
+        <a asp-controller="Composition" asp-action="CompositionCreate" class="btn btn-primary">Добавить новый</a>
+    </p>
+
+    <div class="card">
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>@Html.DisplayNameFor(model => model.Quantity)</th>
+                            <th>@Html.DisplayNameFor(model => model.Unit)</th>
+                            <th>@Html.DisplayNameFor(model => model.Dish)</th>
+                            <th>@Html.DisplayNameFor(model => model.Ingredient)</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@Html.DisplayFor(modelItem => item.Quantity)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Unit)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Dish.Recipe)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Ingredient.Title)</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

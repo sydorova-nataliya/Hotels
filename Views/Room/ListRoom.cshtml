@@ -1,0 +1,38 @@
+﻿@model IEnumerable<hotelcourseworkV2.Models.HotelRoom>
+
+<div class="card">
+    <div class="card-header">
+        <h3 class="card-title">Список номеров</h3>
+    </div>
+    <div class="card-body">
+        <a href="@Url.Action("CreateRoom","Room")" class="btn btn-primary">Создать</a>
+        <div class="table-responsive">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Отель</th>
+                        <th>Тип комнаты</th>
+                        <th>Цена</th>
+                        <th>Номер комнаты</th>
+                        <th>Этаж</th>
+                        <th>Количество комнат</th>
+                        <th>Количество мест</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model) {
+                        <tr>
+                            <td>@item.hotel.Name</td>
+                            <td>@item.typeRoom.Name</td>
+                            <td>@item.Price</td>
+                            <td>@item.NumberRoom</td>
+                            <td>@item.FloorRoom</td>
+                            <td>@item.AmountRoom</td>
+                            <td>@item.AmountPlace</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

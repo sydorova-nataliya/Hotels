@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - hotelcourseworkV2</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/hotelcourseworkV2.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <div class="container">
+                <a class="navbar-brand text-light" asp-area="" asp-controller="Home" asp-action="Index">RibasHotel</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index">О нас</a>
+                        </li>
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Панель управления
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    @if(User.IsInRole("Владелец сети")){
+                                        <a class="dropdown-item" asp-controller="Owner" asp-action="Owner">Владелец сети</a>
+                                    }
+                                    @if(User.IsInRole("Директор")){
+                                        <a class="dropdown-item" asp-controller="Director" asp-action="Director">Директор</a>
+                                    }
+                                    @if(User.IsInRole("Повар в отеле")){
+                                        <a class="dropdown-item" asp-action="Chef" asp-controller="Chef">Повар в отеле</a>
+                                    }
+                                    @if(User.IsInRole("Сотрудник рецепции")){
+                                        <a class="dropdown-item" asp-action="Reseption" asp-controller="Reseption">Сотрудник рецепции</a>
+                                    }
+                                    @if(User.IsInRole("Зарегистрированный клиент")){
+                                        <a class="dropdown-item" asp-action="Guest" asp-controller="Guest">Зарегистрированный клиент</a>
+                                    }
+                                </div>
+                            </li>
+                        }
+
+                        <!-- Добавьте другие пункты меню, если необходимо -->
+                    </ul>
+                    <partial name="_LoginPartial" />
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container" style="padding-bottom:100px">
+        <main role="main" class="pb-3 main">
+            @RenderBody()
+        </main>
+    </div>
+
+
+    <footer class="bg-dark text-center py-4 text-light ">
+        <div class="container">
+            <p class="mb-0">&copy; 2023 Все права защищены. Ribas Hotel.</p>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

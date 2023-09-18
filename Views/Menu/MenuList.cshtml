@@ -1,0 +1,40 @@
+﻿@model IEnumerable<hotelcourseworkV2.Models.Menu>
+
+<div class="container">
+    <h1>Меню</h1>
+
+    <p>
+        <a asp-controller="Menu" asp-action="MenuCreate" class="btn btn-primary">Добавить меню</a>
+    </p>
+
+    <div class="card">
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>@Html.DisplayNameFor(model => model.Hotel)</th>
+                            <th>@Html.DisplayNameFor(model => model.Dish)</th>
+                            <th>@Html.DisplayNameFor(model => model.Price)</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@Html.DisplayFor(modelItem => item.Hotel.Name)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Dish.Title)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Price)</td>
+                                <td>
+                                    <a asp-controller = "Menu" asp-action="MenuDelete" asp-route-id="@item.Id" class="btn btn-danger">Удалить</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+

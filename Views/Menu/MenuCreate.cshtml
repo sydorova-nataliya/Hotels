@@ -1,0 +1,38 @@
+﻿@model hotelcourseworkV2.Models.Menu
+
+@{
+    ViewData["Title"] = "MenuCreate";
+}
+
+
+<h4>Меню</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="MenuCreate">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="HotelId" class="control-label">Отель</label>
+                <select asp-for="HotelId" class="form-control" asp-items="ViewBag.HotelId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="DishId" class="control-label">Блюдо</label>
+                <select asp-for="DishId" class="form-control" asp-items="ViewBag.DishId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Price" class="control-label">Цена</label>
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Создать" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

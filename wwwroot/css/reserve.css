@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(27, 58, 99);
+}
+.group-reserve
+{
+    position: absolute;
+    left: 650px;
+    top: 50px;
+    width: 500px;
+    height: 320px;
+    background-color: rgb(35, 75, 128);
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+.group-reserve-input
+{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.group-select
+{
+    margin-top: 10px;
+}
+
+.btn
+{
+    margin-top: 20px;
+    
+}
