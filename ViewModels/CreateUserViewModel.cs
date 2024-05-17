@@ -7,18 +7,18 @@ namespace hotelcourseworkV2.ViewModels
     public class CreateUserViewModel
     {
         [Required(ErrorMessage = "Введіть ім'я користувача")]
-        [Display(Name = "Имя")]
+        [Display(Name = "Імя")]
         public string Name { get; set; }
 
         [Required(ErrorMessage = "Введіть прізвище користувача")]
-        [Display(Name = "Фамилия")]
+        [Display(Name = "Прізвище")]
         public string LastName { get; set; }
 
         [Required(ErrorMessage = "Введіть по-батькові користувача")]
-        [Display(Name = "Отчетство")]
+        [Display(Name = "По-батькові")]
         public string MiddleName { get; set; }
 
-        [Display(Name = "Номер телефона")]
+        [Display(Name = "Номер телефону")]
         [Required(ErrorMessage = "Введіть номер телефону користувача")]
         public string Phone { get; set; }
 

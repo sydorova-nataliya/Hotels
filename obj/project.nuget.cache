@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "q7GYvji2XEYAW8Fj0tE8rBBDL4xjfXF3jFhO8oZggLpeunVeFTCyDig77EXtHT2TG8YM3ocvododccdcBjzoyw==",
+  "dgSpecHash": "q8ZE5AOMJOGzTmdP6xdzYHYmeLUrjI+cK/p36iYmuI0c1WkyHzlYUaDErHd0FIW5LH1O3IMV6WkMEROzIvrgiw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Maks\\Desktop\\hotelcourseworkV2\\hotelcourseworkV2\\hotelcourseworkV2.csproj",
+  "projectFilePath": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\hotelcourseworkV2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Maks\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Maks\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

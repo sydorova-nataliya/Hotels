@@ -21,32 +21,17 @@ namespace hotelcourseworkV2.Controllers
         public async Task<IActionResult> ReserveCreate()
         {
             var guests = await _userManager.GetUsersInRoleAsync("Зарегистрированный клиент");
-            ViewBag.HotelTypeRoomId = new SelectList(_context.typeRooms.ToList(), "Id", "Name");
+            ViewBag.HotelTypeRoomId = new SelectList(_context.hotelRooms.ToList(), "Id", "NumberRoom");
             ViewBag.QuestId = new SelectList(guests, "Id", "UserName");
             return View();
         }
 
         public IActionResult ReserveCreate(ReserveRoom reserve)
         {
-            reserve.DepartureDate = DateTime.SpecifyKind(reserve.DepartureDate, DateTimeKind.Utc);
-            reserve.ArrivalDate = DateTime.SpecifyKind(reserve.ArrivalDate, DateTimeKind.Utc);
-            reserve.BookingDate = DateTime.SpecifyKind(reserve.BookingDate, DateTimeKind.Utc);
-
-            // Проверяем существование связанных объектов перед сохранением
-            var hotelTypeRoom = _context.typeRooms.FirstOrDefault(r => r.Id == reserve.HotelTypeRoomId);
-            if (hotelTypeRoom == null)
-            {
-
-                // Обработка ошибки: неверное значение внешнего ключа HotelTypeRoomId
-                return BadRequest("Invalid HotelTypeRoomId.");
-            }
-
-            var quest = _context.Users.FirstOrDefault(u => u.Id == reserve.QuestId);
-            if (quest == null)
-            {
-                // Обработка ошибки: неверное значение внешнего ключа QuestId
-                return BadRequest("Invalid QuestId.");
-            }
+            reserve.DepartureDate = reserve.DepartureDate.ToUniversalTime();
+            reserve.ArrivalDate = reserve.ArrivalDate.ToUniversalTime();
+            reserve.BookingDate = reserve.BookingDate.ToUniversalTime();
+ 
             _context.reserves.Add(reserve);
             _context.SaveChanges();
             var user = HttpContext.User;
@@ -63,16 +48,16 @@ namespace hotelcourseworkV2.Controllers
         [HttpGet]
         public IActionResult ReserveRoom()
         {
-            ViewBag.HotelTypeRoomId = new SelectList(_context.typeRooms.ToList(), "Id", "Name");
+            ViewBag.HotelTypeRoomId = new SelectList(_context.hotelRooms.ToList(), "Id", "NumberRoom");
             ViewBag.QuestId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
             return View();
         }
 
         public IActionResult ReserveRoom(ReserveRoom reserve)
         {
-            reserve.DepartureDate = DateTime.SpecifyKind(reserve.DepartureDate, DateTimeKind.Utc);
-            reserve.ArrivalDate = DateTime.SpecifyKind(reserve.ArrivalDate, DateTimeKind.Utc);
-            reserve.BookingDate = DateTime.SpecifyKind(reserve.BookingDate, DateTimeKind.Utc);
+            reserve.DepartureDate = reserve.DepartureDate.ToUniversalTime();
+            reserve.ArrivalDate = reserve.ArrivalDate.ToUniversalTime();
+            reserve.BookingDate = reserve.BookingDate.ToUniversalTime();
             _context.reserves.Add(reserve);
             _context.SaveChanges();
             var user = HttpContext.User;
