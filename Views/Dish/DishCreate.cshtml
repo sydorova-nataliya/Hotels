@@ -4,14 +4,14 @@
     ViewData["Title"] = "DishCreate";
 }
 
-<h4>Блюдо</h4>
+<h4>Страва</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
         <form asp-action="DishCreate">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="Title" class="control-label">Название</label>
+                <label asp-for="Title" class="control-label">Назва</label>
                 <input asp-for="Title" class="form-control" />
                 <span asp-validation-for="Title" class="text-danger"></span>
             </div>
@@ -21,12 +21,12 @@
                 <span asp-validation-for="Recipe" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Weight" class="control-label">Вес</label>
+                <label asp-for="Weight" class="control-label">Вага</label>
                 <input asp-for="Weight" class="form-control" />
                 <span asp-validation-for="Weight" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Unit" class="control-label">Единица</label>
+                <label asp-for="Unit" class="control-label">Одиниця виміру</label>
                 <input asp-for="Unit" class="form-control" />
                 <span asp-validation-for="Unit" class="text-danger"></span>
             </div>

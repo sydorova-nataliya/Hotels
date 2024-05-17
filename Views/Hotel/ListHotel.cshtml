@@ -9,7 +9,7 @@
         <div class="col">
             @if (User.IsInRole("Владелец сети"))
             {
-                <a asp-controller="Hotel" asp-action="CreateHotel" class="btn btn-primary">Создать отель</a>
+                <a asp-controller="Hotel" asp-action="CreateHotel" class="btn btn-primary">Створити готель</a>
             }
         </div>
     </div>
@@ -21,14 +21,14 @@
                     <div class="card-body">
                         <h5 class="card-title">@Html.DisplayFor(modelItem => item.Name)</h5>
                         <p class="card-text">
-                            <strong>Звезды:</strong> @Html.DisplayFor(modelItem => item.Stars)<br />
-                            <strong>Город:</strong> @Html.DisplayFor(modelItem => item.City)<br />
-                            <strong>Улица:</strong> @Html.DisplayFor(modelItem => item.Street)<br />
-                            <strong>Номер телефона:</strong> @Html.DisplayFor(modelItem => item.Owner.PhoneNumber)
+                            <strong>Зірки:</strong> @Html.DisplayFor(modelItem => item.Stars)<br />
+                            <strong>Місто:</strong> @Html.DisplayFor(modelItem => item.City)<br />
+                            <strong>Вулиця:</strong> @Html.DisplayFor(modelItem => item.Street)<br />
+                            <strong>Номер телефону:</strong> @Html.DisplayFor(modelItem => item.Owner.PhoneNumber)
                         </p>
                         @if (User.IsInRole("Зарегистрированный клиент"))
                         {
-                            <a asp-action="ReserveRoom" asp-controller="Reserve" class="btn btn-primary">Забронировать</a>
+                            <a asp-action="ReserveRoom" asp-controller="Reserve" class="btn btn-primary">Забронювати</a>
                         }
                     </div>
                 </div>

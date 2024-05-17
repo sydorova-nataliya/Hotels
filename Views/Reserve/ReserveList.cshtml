@@ -8,7 +8,7 @@
     @if (User.IsInRole("Сотрудник рецепции"))
     {
         <p>
-            <a href="@Url.Action("ReserveCreate","Reserve")" class="btn btn-primary">Создать бронь</a>
+            <a href="@Url.Action("ReserveCreate","Reserve")" class="btn btn-primary">Створити бронь</a>
         </p>
     }
     <div class="card">
@@ -17,12 +17,12 @@
             <table class="table table-striped">
                 <thead>
                     <tr>
-                        <th>Гость</th>
-                        <th>Тип комнаты</th>
-                        <th>Дата бронирования</th>
-                        <th>Дата заселения</th>
-                        <th>Дата выселения</th>
-                        <th>Цена</th>
+                        <th>Гість</th>
+                        <th>Тип кімнати</th>
+                        <th>Дата бронювання</th>
+                        <th>Дата заселення</th>
+                        <th>Дата виселення</th>
+                        <th>Ціна</th>
                         <th></th>
                     </tr>
                 </thead>
@@ -37,7 +37,7 @@
                             <td>@Html.DisplayFor(modelItem => item.DepartureDate)</td>
                             <td>@Html.DisplayFor(modelItem => item.Price)</td>
                             <td>
-                                <a href="@Url.Action("ReserveDelete","Reserve", new { id = item.Id })" class="btn btn-danger">Выселить</a>
+                                <a href="@Url.Action("ReserveDelete","Reserve", new { id = item.Id })" class="btn btn-danger">Виселити</a>
                             </td>
                         </tr>
                     }

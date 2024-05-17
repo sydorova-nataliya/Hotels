@@ -6,23 +6,23 @@
 
 
 
-<h4>Добавить услугу</h4>
+<h4>Додати послугу</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
         <form asp-action="CreateServices">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="TypeServiceId" class="control-label">Тип сервиса</label>
+                <label asp-for="TypeServiceId" class="control-label">Тип сервісу</label>
                 <select asp-for="TypeServiceId" class="form-control" asp-items="ViewBag.TypeServiceId"></select>
             </div>
             <div class="form-group">
-                <label asp-for="Amount" class="control-label">Количество</label>
+                <label asp-for="Amount" class="control-label">Кількість</label>
                 <input asp-for="Amount" class="form-control" />
                 <span asp-validation-for="Amount" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Price" class="control-label">Цена</label>
+                <label asp-for="Price" class="control-label">Ціна</label>
                 <input asp-for="Price" class="form-control" />
                 <span asp-validation-for="Price" class="text-danger"></span>
             </div>

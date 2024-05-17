@@ -6,36 +6,36 @@ namespace hotelcourseworkV2.ViewModels
 {
     public class CreateUserViewModel
     {
-        [Required(ErrorMessage = "Введите имя пользователя")]
+        [Required(ErrorMessage = "Введіть ім'я користувача")]
         [Display(Name = "Имя")]
         public string Name { get; set; }
 
-        [Required(ErrorMessage = "Введите фамилию пользователя")]
+        [Required(ErrorMessage = "Введіть прізвище користувача")]
         [Display(Name = "Фамилия")]
         public string LastName { get; set; }
 
-        [Required(ErrorMessage = "Введите отчество пользователя")]
+        [Required(ErrorMessage = "Введіть по-батькові користувача")]
         [Display(Name = "Отчетство")]
         public string MiddleName { get; set; }
 
         [Display(Name = "Номер телефона")]
-        [Required(ErrorMessage = "Введите номер телефона пользователя")]
+        [Required(ErrorMessage = "Введіть номер телефону користувача")]
         public string Phone { get; set; }
 
-        [Required(ErrorMessage = "Введите адрес электронной почты")]
+        [Required(ErrorMessage = "Введіть адресу електронної пошти")]
         [EmailAddress(ErrorMessage = "Некорректный адрес электронной почты")]
         public string Email { get; set; }
 
-        [Required(ErrorMessage = "Введите пароль")]
+        [Required(ErrorMessage = "Введіть пароль")]
         [DataType(DataType.Password)]
         public string Password { get; set; }
 
-        [Required(ErrorMessage = "Подтвердите пароль")]
-        [Compare("Password", ErrorMessage = "Пароли не совпадают")]
+        [Required(ErrorMessage = "Підтвердіть пароль")]
+        [Compare("Password", ErrorMessage = "Паролі не співпадають")]
         [DataType(DataType.Password)]
         public string ConfirmPassword { get; set; }
 
-        [Required(ErrorMessage = "Выберите роль")]
+        [Required(ErrorMessage = "Виберіть роль")]
         [Display(Name = "Роль")]
         public string RoleName { get; set; }
 

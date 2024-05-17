@@ -1,41 +1,41 @@
 ﻿@model hotelcourseworkV2.Models.HotelRoom
 
-<h4>Добавить комнату в отель</h4>
+<h4>Додати кімнату до готелю</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
         <form asp-action="CreateRoom">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="HotelId" class="control-label">Отель</label>
+                <label asp-for="HotelId" class="control-label">Готель</label>
                 <select asp-for="HotelId" class="form-control" asp-items="ViewBag.HotelId"></select>
             </div>
             <div class="form-group">
-                <label asp-for="TypeRoomId" class="control-label">Тип комнаты</label>
+                <label asp-for="TypeRoomId" class="control-label">Тип кімнати</label>
                 <select asp-for="TypeRoomId" class="form-control" asp-items="ViewBag.TypeRoomId"></select>
             </div>
             <div class="form-group">
-                <label asp-for="Price" class="control-label">Цена</label>
+                <label asp-for="Price" class="control-label">Ціна</label>
                 <input asp-for="Price" class="form-control" />
                 <span asp-validation-for="Price" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="NumberRoom" class="control-label">Номер комнаты</label>
+                <label asp-for="NumberRoom" class="control-label">Номер кімнати</label>
                 <input asp-for="NumberRoom" class="form-control" />
                 <span asp-validation-for="NumberRoom" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="FloorRoom" class="control-label">Этаж</label>
+                <label asp-for="FloorRoom" class="control-label">Поверх</label>
                 <input asp-for="FloorRoom" class="form-control" />
                 <span asp-validation-for="FloorRoom" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="AmountRoom" class="control-label">Количество комнат</label>
+                <label asp-for="AmountRoom" class="control-label">Кількість кімнат</label>
                 <input asp-for="AmountRoom" class="form-control" />
                 <span asp-validation-for="AmountRoom" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="AmountPlace" class="control-label">Количество мест</label>
+                <label asp-for="AmountPlace" class="control-label">Кількість місць</label>
                 <input asp-for="AmountPlace" class="form-control" />
                 <span asp-validation-for="AmountPlace" class="text-danger"></span>
             </div>

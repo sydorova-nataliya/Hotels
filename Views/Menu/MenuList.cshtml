@@ -4,7 +4,7 @@
     <h1>Меню</h1>
 
     <p>
-        <a asp-controller="Menu" asp-action="MenuCreate" class="btn btn-primary">Добавить меню</a>
+        <a asp-controller="Menu" asp-action="MenuCreate" class="btn btn-primary">Додати меню</a>
     </p>
 
     <div class="card">
@@ -27,7 +27,7 @@
                                 <td>@Html.DisplayFor(modelItem => item.Dish.Title)</td>
                                 <td>@Html.DisplayFor(modelItem => item.Price)</td>
                                 <td>
-                                    <a asp-controller = "Menu" asp-action="MenuDelete" asp-route-id="@item.Id" class="btn btn-danger">Удалить</a>
+                                    <a asp-controller = "Menu" asp-action="MenuDelete" asp-route-id="@item.Id" class="btn btn-danger">Видалити</a>
                                 </td>
                             </tr>
                         }
