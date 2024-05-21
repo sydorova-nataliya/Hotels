@@ -25,7 +25,7 @@ namespace hotelcourseworkV2.Controllers
             var guestRole = await _roleManager.FindByNameAsync("Зарегистрированный клиент");
             var guestUsers = await _userManager.GetUsersInRoleAsync(guestRole.Name);
             ViewData["User"] = guestUsers;
-               //ViewData["User"] = _userManager.Users;
+            //ViewData["User"] = _userManager.Users;
             ViewData["Reserve"] = _context.reserves.Include(s => s.HotelTypeRoom).ThenInclude(t => t.typeRoom).ToList();
             ViewData["Services"] = _context.servicesReserves.Include(t => t.TypeService).ToList();
             return View();

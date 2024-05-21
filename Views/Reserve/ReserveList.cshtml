@@ -4,49 +4,55 @@
     ViewData["Title"] = "ReserveList";
 }
 
-<div class="container mt-2">
+<div class="container mt-4">
     @if (User.IsInRole("Сотрудник рецепции"))
     {
-        <p>
-            <a href="@Url.Action("ReserveCreate","Reserve")" class="btn btn-primary">Створити бронь</a>
-        </p>
+        <div class="d-flex justify-content-end mb-3">
+            <a href="@Url.Action("ReserveCreate", "Reserve")" class="btn btn-primary">
+                <i class="fas fa-plus"></i> Створити бронь
+            </a>
+        </div>
     }
-    <div class="card">
+    <div class="card shadow-sm">
         <div class="card-body">
-            <h5 class="card-title">Список броней</h5>
-            <table class="table table-striped">
-                <thead>
-                    <tr>
-                        <th>Гість</th>
-                        <th>Тип кімнати</th>
-                        <th>Дата бронювання</th>
-                        <th>Дата заселення</th>
-                        <th>Дата виселення</th>
-                        <th>Ціна</th>
-                        <th></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    @foreach (var item in Model)
-                    {
+            <h5 class="card-title mb-4">Список броней</h5>
+            <div class="table-responsive">
+                <table class="table table-bordered table-hover">
+                    <thead class="thead-dark">
                         <tr>
-                            <td>@Html.DisplayFor(modelItem => item.Quest.UserName)</td>
-                            <td>@Html.DisplayFor(modelItem => item.HotelTypeRoom.typeRoom.Name)</td>
-                            <td>@Html.DisplayFor(modelItem => item.BookingDate)</td>
-                            <td>@Html.DisplayFor(modelItem => item.ArrivalDate)</td>
-                            <td>@Html.DisplayFor(modelItem => item.DepartureDate)</td>
-                            <td>@Html.DisplayFor(modelItem => item.Price)</td>
-                            <td>
-                                <a href="@Url.Action("ReserveDelete","Reserve", new { id = item.Id })" class="btn btn-danger">Виселити</a>
-                            </td>
+                            <th>Тип кімнати</th>
+                            <th>Номер кімнати</th>
+                            <th>Дата бронювання</th>
+                            <th>Дата заселення</th>
+                            <th>Дата виселення</th>
+                            <th>Ціна</th>
+                            <th></th>
                         </tr>
-                    }
-                </tbody>
-            </table>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@Html.DisplayFor(modelItem => item.HotelTypeRoom.typeRoom.Name)</td>
+                                <td>@Html.DisplayFor(modelItem => item.HotelTypeRoom.NumberRoom)</td>
+                                <td>@Html.DisplayFor(modelItem => item.BookingDate)</td>
+                                <td>@Html.DisplayFor(modelItem => item.ArrivalDate)</td>
+                                <td>@Html.DisplayFor(modelItem => item.DepartureDate)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Price)</td>
+                                <td>
+                                    <a href="@Url.Action("ReserveDelete", "Reserve", new { id = item.Id })" class="btn btn-danger btn-sm">
+                                        <i class="fas fa-times"></i> Видалити
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
         </div>
     </div>
 </div>
 
-
-
-
+@section Scripts {
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+}

@@ -13,7 +13,7 @@ namespace hotelcourseworkV2.Models
         [Display(Name = "Назва готелю")]
         public string Name { get; set; }
         [Column("stars")]
-        [Range(1,5,ErrorMessage = "Диапазон от 1 до 5")]
+        [Range(1,5,ErrorMessage = "Від 1 до 5")]
         [Display(Name = "Рейтинг")]
         public int Stars { get; set; }
         [MaxLength(20,ErrorMessage = "Максимальное количество символов 20")]
@@ -24,6 +24,11 @@ namespace hotelcourseworkV2.Models
         [Column("street")]
         [Display(Name = "Вулиця")]
         public string Street { get; set; }
+
+        [Column("image_path")]
+        [Display(Name = "Зображення")]
+        [Required(ErrorMessage = "Додайте зобоаження")]
+        public string ImagePath { get; set; }
 
         [Column("owner_id")]
         public string OwnerId { get; set; }

@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\images\\images.jpg",
+      "PackagePath": "staticwebassets\\images\\images.jpg"
+    },
+    {
       "Id": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\img\\negresco.gif",
       "PackagePath": "staticwebassets\\img\\negresco.gif"
     },

@@ -1,7 +1,7 @@
 ﻿@model hotelcourseworkV2.Models.ReserveRoom
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Створити";
 }
 
 @{
@@ -11,52 +11,53 @@
 
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-4">
-            <hr />
-            <form asp-action="ReserveCreate">
-                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                <input asp-for="QuestId" class="form-control" value="@ViewBag.QuestId" hidden/>
-                <div class="form-group">
-                    <label asp-for="HotelTypeRoomId" class="control-label">Виберіть тип кімнати</label>
-                    <select asp-for="HotelTypeRoomId" class="form-control" asp-items="ViewBag.HotelTypeRoomId"></select>
+        <div class="col-md-6">
+            <div class="card shadow">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="mb-0">Забронювати номер</h4>
                 </div>
-                <div class="form-group">
-                    <label asp-for="BookingDate" class="control-label">Дата бронювання</label>
-                    <input asp-for="BookingDate" class="form-control" min="@DateTime.Now.ToString("yyyy-MM-dd")" />
-                    <span asp-validation-for="BookingDate" class="text-danger"></span>
+                <div class="card-body">
+                    <form asp-action="ReserveRoom">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <input asp-for="QuestId" class="form-control" value="@ViewBag.QuestId" hidden />
+                        <input asp-for="HotelTypeRoomId" class="form-control" value="@ViewBag.RoomId" hidden />
+                        <div class="form-group">
+                            <label asp-for="BookingDate" class="control-label">Дата бронювання</label>
+                            <input asp-for="BookingDate" class="form-control" min="@DateTime.Now.ToString("yyyy-MM-dd")" />
+                            <span asp-validation-for="BookingDate" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="ArrivalDate" class="control-label">Дата прибуття</label>
+                            <input asp-for="ArrivalDate" class="form-control" min="@DateTime.Now.ToString("yyyy-MM-dd")" />
+                            <span asp-validation-for="ArrivalDate" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="DepartureDate" class="control-label">Дата виїзду</label>
+                            <input asp-for="DepartureDate" class="form-control" min="@DateTime.Now.ToString("yyyy-MM-dd")" />
+                            <span asp-validation-for="DepartureDate" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label">Оберіть послугу</label>
+                            <select class="form-control">
+                                <option value="">----Оберіть послугу----</option>
+                                <option value="1">Басейн</option>
+                                <option value="2">Спа</option>
+                                <option value="3">Прокат автомобілів</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Price" class="control-label">Середня ціна</label>
+                            <input asp-for="Price" class="form-control" value="@price" readonly />
+                        </div>
+                        <div class="form-group text-center">
+                            <button type="submit" class="btn btn-primary btn-lg">Забронювати</button>
+                        </div>
+                    </form>
                 </div>
-                <div class="form-group">
-                    <label asp-for="ArrivalDate" class="control-label">Дата прибуття</label>
-                    <input asp-for="ArrivalDate" class="form-control" min="@DateTime.Now.ToString("yyyy-MM-dd")" />
-                    <span asp-validation-for="ArrivalDate" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="DepartureDate" class="control-label">Дата від'їзду</label>
-                    <input asp-for="DepartureDate" class="form-control" min="@DateTime.Now.ToString("yyyy-MM-dd")" />
-                    <span asp-validation-for="DepartureDate" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label class="control-label">Вибрати сервіс</label>
-                    <select class="form-control">
-                        <option value="">----Оберіть сервіс-----</option>
-                        <option value="1">Басейн</option>
-                        <option value="2">Спа</option>
-                        <option value="3">прокат автомобилей</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label asp-for="Price" class="control-label">Середня ціна</label>
-                    <input asp-for="Price" class="form-control" value="@price" readonly/>
-                </div>
-                <div class="form-group">
-                    <input type="submit" value="Создать" class="btn btn-primary" />
-                </div>
-            </form>
+            </div>
         </div>
     </div>
 </div>
-
-
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

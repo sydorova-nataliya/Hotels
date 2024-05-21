@@ -2,51 +2,65 @@
 
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-4">
-            <hr />
-            <form asp-action="ReserveCreate">
-                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                <div class="form-group">
-                    <label asp-for="QuestId" class="control-label">Виберіть гостя</label>
-                    <select asp-for="QuestId" class="form-control" asp-items="ViewBag.QuestId"></select>
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="card-title">Форма бронирования номера</h5>
                 </div>
-                <div class="form-group">
-                    <label asp-for="HotelTypeRoomId" class="control-label">Виберіть тип кімнати</label>
-                    <select asp-for="HotelTypeRoomId" class="form-control" asp-items="ViewBag.HotelTypeRoomId"></select>
+                <div class="card-body">
+                    <form asp-action="ReserveCreate">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                        <div class="form-group">
+                            <label asp-for="QuestId" class="control-label">Выберите гостя</label>
+                            <select asp-for="QuestId" class="form-control" asp-items="ViewBag.QuestId"></select>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="HotelTypeRoomId" class="control-label">Номер комнаты</label>
+                            <select asp-for="HotelTypeRoomId" class="form-control" asp-items="ViewBag.HotelTypeRoomId"></select>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="BookingDate" class="control-label">Дата бронирования</label>
+                            <input asp-for="BookingDate" class="form-control" min="@DateTime.Now.ToString("yyyy-MM-dd")" />
+                            <span asp-validation-for="BookingDate" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="ArrivalDate" class="control-label">Дата прибытия</label>
+                            <input asp-for="ArrivalDate" class="form-control" min="@DateTime.Now.ToString("yyyy-MM-dd")" />
+                            <span asp-validation-for="ArrivalDate" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="DepartureDate" class="control-label">Дата отъезда</label>
+                            <input asp-for="DepartureDate" class="form-control" min="@DateTime.Now.ToString("yyyy-MM-dd")" />
+                            <span asp-validation-for="DepartureDate" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="control-label">Выбрать сервис</label>
+                            <select class="form-control">
+                                <option value="">Выберите услугу</option>
+                                <option value="1">Бассейн</option>
+                                <option value="2">Спа</option>
+                                <option value="3">Прокат автомобилей</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="Price" class="control-label">Цена</label>
+                            <input asp-for="Price" class="form-control"/>
+                            <span asp-validation-for="Price" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary">Забронировать</button>
+                        </div>
+                    </form>
                 </div>
-                <div class="form-group">
-                    <label asp-for="BookingDate" class="control-label">Дата бронювання</label>
-                    <input asp-for="BookingDate" class="form-control" min="@DateTime.Now.ToString("yyyy-MM-dd")" />
-                    <span asp-validation-for="BookingDate" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="ArrivalDate" class="control-label">Дата прибуття</label>
-                    <input asp-for="ArrivalDate" class="form-control" min="@DateTime.Now.ToString("yyyy-MM-dd")" />
-                    <span asp-validation-for="ArrivalDate" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="DepartureDate" class="control-label">Дата від'їзду</label>
-                    <input asp-for="DepartureDate" class="form-control" min="@DateTime.Now.ToString("yyyy-MM-dd")" />
-                    <span asp-validation-for="DepartureDate" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label class="control-label">Вибрати сервіс</label>
-                    <select class="form-control">
-                        <option value="">Оберіть бронь</option>
-                        <option value="1">Басейн</option>
-                        <option value="2">Спа</option>
-                        <option value="3">прокат автомобилей</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label asp-for="Price" class="control-label">Ціна</label>
-                    <input asp-for="Price" class="form-control"/>
-                    <span asp-validation-for="Price" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <input type="submit" value="Создать" class="btn btn-primary" />
-                </div>
-            </form>
+            </div>
         </div>
     </div>
 </div>

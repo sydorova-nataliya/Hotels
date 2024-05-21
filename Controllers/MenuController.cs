@@ -14,6 +14,11 @@ namespace hotelcourseworkV2.Controllers
             _context = context;
         }
 
+        
+       // public IActionResult MenuListHotel(int id){
+         //   var menu = _context.menus.FirstOrDefault(m => m.HotelId == id);
+         //   return View(menu);
+        //}
         public IActionResult MenuCreate()
         {
             ViewBag.HotelId = new SelectList(_context.hotels, "Id", "Name");

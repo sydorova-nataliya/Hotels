@@ -27,8 +27,18 @@ namespace hotelcourseworkV2.Controllers
         }
 
         [HttpPost]
-        public IActionResult CreateHotel(Hotel hotel)
+        public async Task<IActionResult> CreateHotel(Hotel hotel, IFormFile imageFile)
         {
+            if (imageFile != null)
+            {
+                var fileName = Path.GetFileName(imageFile.FileName);
+                var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", fileName);
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await imageFile.CopyToAsync(stream);
+                }
+                hotel.ImagePath = "/images/" + fileName;
+            }
             _context.hotels.Add(hotel);
             _context.SaveChanges();
             return RedirectToAction("Owner", "Owner");
@@ -50,8 +60,18 @@ namespace hotelcourseworkV2.Controllers
         }
 
         [HttpPost]
-        public IActionResult EditHotel(Hotel hotel)
+        public async Task<IActionResult> EditHotel(Hotel hotel,IFormFile imageFile)
         {
+            if (imageFile != null)
+            {
+                var fileName = Path.GetFileName(imageFile.FileName);
+                var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", fileName);
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await imageFile.CopyToAsync(stream);
+                }
+                hotel.ImagePath = "/images/" + fileName;
+            }
             if (!ModelState.IsValid)
             {
                 _context.Update(hotel);
@@ -86,7 +106,6 @@ namespace hotelcourseworkV2.Controllers
             }
             return View(hotel);
         }
-
 
         private bool HotelExists(int id)
         {

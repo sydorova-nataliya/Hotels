@@ -11,7 +11,7 @@ namespace hotelcourseworkV2.Data
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {
-            Database.EnsureCreated();
+            //Database.EnsureCreated();
         }
 
         public DbSet<Composition> compositions { get; set; }
@@ -28,6 +28,8 @@ namespace hotelcourseworkV2.Data
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
+            builder.ApplyConfiguration(new TypeRoomConfiguration());
+            builder.ApplyConfiguration(new ServicesConfiguration());
             builder.ApplyConfiguration(new RoleConfiguration());
             builder.Entity<IdentityUser>().ToTable("user");
             builder.Entity<IdentityRole>().ToTable("role");

@@ -21,17 +21,21 @@ namespace hotelcourseworkV2.Models
         public HotelRoom HotelTypeRoom { get; set; }
 
         [Column("booking_date")]
+        [DataType(DataType.Date)]
+        [Required(ErrorMessage = "Додайде дату")]
         public DateTime BookingDate { get; set; } = DateTime.Now;
 
         [Column("arrival_date")]
+        [DataType(DataType.Date)]
+        [Required(ErrorMessage = "Додайде дату")]
         public DateTime ArrivalDate { get; set; } = DateTime.Now;
 
         [Column("departure_date")]
-        [Required]
+        [Required(ErrorMessage = "Додайде дату")]
+        [DataType(DataType.Date)]
         public DateTime DepartureDate { get; set; }
 
         [Column("price")]
-        [Required]
         public decimal Price { get; set; }
 
     }

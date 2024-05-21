@@ -12,12 +12,11 @@
             </div>
             <div class="form-group">
                 <label asp-for="TypeRoomId" class="control-label">Тип кімнати</label>
-                <select asp-for="TypeRoomId" class="form-control" asp-items="ViewBag.TypeRoomId"></select>
+                <select asp-for="TypeRoomId" class="form-control" asp-items="ViewBag.TypeRoomId" id="typeRoomSelect"></select>
             </div>
-            <div class="form-group">
-                <label asp-for="Price" class="control-label">Ціна</label>
-                <input asp-for="Price" class="form-control" />
-                <span asp-validation-for="Price" class="text-danger"></span>
+                <div class="form-group">
+                <label asp-for="Price" class="control-label">Ціна кімнати</label>
+                <input asp-for="Price" id="roomPrice" class="form-control" readonly />
             </div>
             <div class="form-group">
                 <label asp-for="NumberRoom" class="control-label">Номер кімнати</label>
@@ -39,6 +38,7 @@
                 <input asp-for="AmountPlace" class="form-control" />
                 <span asp-validation-for="AmountPlace" class="text-danger"></span>
             </div>
+
             <div class="form-group">
                 <input type="submit" value="Создать" class="btn btn-primary" />
             </div>
@@ -46,7 +46,26 @@
     </div>
 </div>
 
-
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#typeRoomSelect').change(function() {
+                var typeRoomId = $(this).val();
+                $.ajax({
+                    url: '@Url.Action("GetRoomPrice", "Room")',
+                    data: { typeRoomId: typeRoomId },
+                    success: function(data) {
+                        $('#roomPrice').val(data.price);
+                    },
+                    error: function() {
+                        alert('Помилка при отримані ціни кімнати.');
+                    }
+                });
+            });
+        });
+    </script>
 }
+
+

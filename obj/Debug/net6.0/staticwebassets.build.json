@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hXOoPh58OIiJNxOYizY1sos/ZgJ0xLSc9fuQoiD6n+A=",
+  "Hash": "ehgeLyi5Dw+TKWVWV3KsDPxkf5gA3Ld3/C+deGnOHC8=",
   "Source": "hotelcourseworkV2",
   "BasePath": "_content/hotelcourseworkV2",
   "Mode": "Default",
@@ -1288,6 +1288,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\images\\images.jpg",
+      "SourceId": "hotelcourseworkV2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "BasePath": "_content/hotelcourseworkV2",
+      "RelativePath": "images/images.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\images.jpg"
     },
     {
       "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\img\\negresco.gif",
