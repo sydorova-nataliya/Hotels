@@ -4,19 +4,19 @@
     <h1>Список страв</h1>
 
     <p>
-        <a asp-controller = "Dish" asp-action="DishCreate" class="btn btn-primary">Додати нове</a>
+        <a asp-controller="Dish" asp-action="DishCreate" class="btn btn-primary">Додати нове</a>
     </p>
 
     <div class="card">
         <div class="card-body">
             <div class="table-responsive">
-                <table class="table">
-                    <thead>
+                <table class="table table-bordered table-striped">
+                    <thead class="thead-dark">
                         <tr>
-                            <th>@Html.DisplayNameFor(model => model.Title)</th>
-                            <th>@Html.DisplayNameFor(model => model.Recipe)</th>
-                            <th>@Html.DisplayNameFor(model => model.Weight)</th>
-                            <th>@Html.DisplayNameFor(model => model.Unit)</th>
+                            <th>Назва</th>
+                            <th>Рецепт</th>
+                            <th>Вага</th>
+                            <th>Одиниця</th>
                             <th></th>
                         </tr>
                     </thead>
@@ -28,6 +28,12 @@
                                 <td>@Html.DisplayFor(modelItem => item.Recipe)</td>
                                 <td>@Html.DisplayFor(modelItem => item.Weight)</td>
                                 <td>@Html.DisplayFor(modelItem => item.Unit)</td>
+                                <td>
+                                    <div class="btn-group">
+                                        <a href="#" class="btn btn-success">Редагувати</a>
+                                        <a href="#" class="btn btn-danger">Видалити</a>
+                                    </div>
+                                </td>
                             </tr>
                         }
                     </tbody>
@@ -36,4 +42,3 @@
         </div>
     </div>
 </div>
-

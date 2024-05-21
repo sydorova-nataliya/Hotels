@@ -14,7 +14,7 @@
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                 <div class="form-floating mb-3">
                     <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="Email" />
-                    <label asp-for="Input.Email" class="form-label">Email</label>
+                    <label asp-for="Input.Email" class="form-label">Пошта</label>
                     <span asp-validation-for="Input.Email" class="text-danger"></span>
                 </div>
                 <div class="form-floating mb-3">
@@ -24,7 +24,7 @@
                 </div>
                 <div class="form-check mb-3">
                     <input class="form-check-input" asp-for="Input.RememberMe" />
-                    <label class="form-check-label" asp-for="Input.RememberMe">@Html.DisplayNameFor(m => m.Input.RememberMe)</label>
+                    <label class="form-check-label" asp-for="Input.RememberMe">Запомаятати мене?</label>
                 </div>
                 <div class="text-center">
                     <button id="login-submit" type="submit" class="w-100 btn btn-lg btn-primary">Увійти</button>
@@ -34,6 +34,23 @@
     </div>
 </div>
 
+<style>
+    /* Додатковий CSS для стилізації форми */
+    .form-control {
+        border-radius: 8px; /* Закруглені кути для полів вводу */
+    }
+
+    .btn-primary {
+        background-color: #007bff; /* Синій колір для кнопки */
+        border-color: #007bff; /* Синій колір для рамки кнопки */
+    }
+
+    .btn-primary:hover {
+        background-color: #0056b3; /* Темно-синій колір для кнопки при наведенні */
+        border-color: #0056b3; /* Темно-синій колір для рамки кнопки при наведенні */
+    }
+
+</style>
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
 }

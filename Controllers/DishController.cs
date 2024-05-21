@@ -22,7 +22,7 @@ namespace hotelcourseworkV2.Controllers
         [HttpPost]
         public IActionResult DishCreate(Dish model)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 _context.dishes.Add(model);
                 _context.SaveChanges();

@@ -5,62 +5,72 @@
         <div class="col-md-6">
             <h2 class="text-center">Додати користувача</h2>
 
-            @using (Html.BeginForm("Create", "Users", FormMethod.Post, new { @class = "needs-validation", novalidate = "true" }))
+            @using (Html.BeginForm("Register", "Users", FormMethod.Post, new { @class = "needs-validation", novalidate = "true" }))
             {
                 @Html.AntiForgeryToken()
 
-                <div class="form-group">
-                    @Html.LabelFor(m => m.Name)
-                    @Html.TextBoxFor(m => m.Name, new { @class = "form-control", required = "required" })
-                    @Html.ValidationMessageFor(m => m.Name)
+                <div class="border-bottom mb-4 pb-2">
+                    <h4 class="text-center mb-3">Персональні дані</h4>
+
+                    <div class="form-group">
+                        <label for="Name">Ім'я</label>
+                        @Html.TextBoxFor(m => m.Name, new { @class = "form-control", required = "required", placeholder = "Введіть ім'я" })
+                        @Html.ValidationMessageFor(m => m.Name)
+                    </div>
+
+                    <div class="form-group">
+                        <label for="LastName">Прізвище</label>
+                        @Html.TextBoxFor(m => m.LastName, new { @class = "form-control", required = "required", placeholder = "Введіть прізвище" })
+                        @Html.ValidationMessageFor(m => m.LastName)
+                    </div>
+
+                    <div class="form-group">
+                        <label for="MiddleName">По-батькові</label>
+                        @Html.TextBoxFor(m => m.MiddleName, new { @class = "form-control", required = "required", placeholder = "Введіть по-батькові" })
+                        @Html.ValidationMessageFor(m => m.MiddleName)
+                    </div>
                 </div>
 
-                <div class="form-group">
-                    @Html.LabelFor(m => m.LastName)
-                    @Html.TextBoxFor(m => m.LastName, new { @class = "form-control", required = "required" })
-                    @Html.ValidationMessageFor(m => m.LastName)
+                <div>
+                    <h4 class="text-center mb-3">Дані для авторизації</h4>
+
+                    <div class="form-group">
+                        <label for="Email">Електронна пошта</label>
+                        @Html.TextBoxFor(m => m.Email, new { @class = "form-control", required = "required", type = "email", placeholder = "Введіть електронну пошту" })
+                        @Html.ValidationMessageFor(m => m.Email)
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Phone">Телефон</label>
+                        @Html.TextBoxFor(m => m.Phone, new { @class = "form-control", required = "required", placeholder = "Введіть номер телефону" })
+                        @Html.ValidationMessageFor(m => m.Phone)
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Password">Пароль</label>
+                        @Html.PasswordFor(m => m.Password, new { @class = "form-control", required = "required", placeholder = "Введіть пароль" })
+                        @Html.ValidationMessageFor(m => m.Password)
+                    </div>
+
+                    <div class="form-group">
+                        <label for="ConfirmPassword">Підтвердіть пароль</label>
+                        @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control", required = "required", placeholder = "Підтвердіть пароль" })
+                        @Html.ValidationMessageFor(m => m.ConfirmPassword)
+                    </div>
+
+                    <div class="form-group">
+                        <label for="RoleName">Роль</label>
+                        @{
+                            var roleList = new SelectList(Model.RoleList, "Value", "Text");
+                            var selectedRole = roleList.FirstOrDefault(r => r.Text == "Зарегистрированный клиент").Value;
+                        }
+                        @Html.DropDownListFor(m => m.RoleName, new SelectList(new[] { selectedRole }), "-- Вибрати роль --", new { @class = "form-control" })
+                        @Html.ValidationMessageFor(m => m.RoleName)
+                    </div>
                 </div>
 
-                <div class="form-group">
-                    @Html.LabelFor(m => m.MiddleName)
-                    @Html.TextBoxFor(m => m.MiddleName, new { @class = "form-control", required = "required" })
-                    @Html.ValidationMessageFor(m => m.MiddleName)
-                </div>
-
-                <div class="form-group">
-                    @Html.LabelFor(m => m.Email)
-                    @Html.TextBoxFor(m => m.Email, new { @class = "form-control", required = "required", type = "email" })
-                    @Html.ValidationMessageFor(m => m.Email)
-                </div>
-                <div class="form-group">
-                    @Html.LabelFor(m => m.Phone)
-                    @Html.TextBoxFor(m => m.Phone, new { @class = "form-control", required = "required" })
-                    @Html.ValidationMessageFor(m => m.Phone)
-                </div>
-                <div class="form-group">
-                    @Html.LabelFor(m => m.Password)
-                    @Html.PasswordFor(m => m.Password, new { @class = "form-control", required = "required" })
-                    @Html.ValidationMessageFor(m => m.Password)
-                </div>
-
-                <div class="form-group">
-                    @Html.LabelFor(m => m.ConfirmPassword)
-                    @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control", required = "required" })
-                    @Html.ValidationMessageFor(m => m.ConfirmPassword)
-                </div>
-
-                <div class="form-group">
-                   @Html.LabelFor(m => m.RoleName)
-                   @{
-                      var roleList = new SelectList(Model.RoleList, "Value", "Text");
-                      var selectedRole = roleList.FirstOrDefault(r => r.Text == "Зарегистрированный клиент").Value;
-                    }
-                    @Html.DropDownListFor(m => m.RoleName, new SelectList(new[] { selectedRole }), "-- Выбрать роль --", new { @class = "form-control" })
-                    @Html.ValidationMessageFor(m => m.RoleName)
-                </div>
-
-                <div class="text-center">
-                    <button type="submit" class="btn btn-primary">Создать</button>
+                <div class="text-center mt-4">
+                    <button type="submit" class="btn btn-primary">Додати</button>
                 </div>
             }
         </div>

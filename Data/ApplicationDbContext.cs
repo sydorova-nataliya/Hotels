@@ -25,6 +25,8 @@ namespace hotelcourseworkV2.Data
         public DbSet<ServicesReserve> servicesReserves { get; set; }
         public DbSet<TypeRoom> typeRooms { get; set; }
 
+        public DbSet<MenuDish> menuDishes {get;set;}
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
@@ -34,6 +36,19 @@ namespace hotelcourseworkV2.Data
             builder.Entity<IdentityUser>().ToTable("user");
             builder.Entity<IdentityRole>().ToTable("role");
             builder.Entity<IdentityUserRole<string>>().ToTable("user_role");
+
+            builder.Entity<MenuDish>()
+            .HasKey(md => md.Id);
+
+            builder.Entity<MenuDish>()
+            .HasOne(md => md.Menu)
+            .WithMany(m => m.MenuDishes)
+            .HasForeignKey(md => md.MenuId);
+
+            builder.Entity<MenuDish>()
+            .HasOne(md => md.Dish)
+            .WithMany(d => d.MenuDishes)
+            .HasForeignKey(md => md.DishId);
         }
 
         public DbSet<hotelcourseworkV2.Models.Services>? Services { get; set; }

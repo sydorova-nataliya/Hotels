@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using hotelcourseworkV2.Data;
@@ -11,9 +12,11 @@ using hotelcourseworkV2.Data;
 namespace hotelcourseworkV2.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240521103908_add_tables_menu_dish")]
+    partial class add_tables_menu_dish
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -50,43 +53,43 @@ namespace hotelcourseworkV2.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "8053677a-6150-40c6-986f-70ec9f9d1bf4",
-                            ConcurrencyStamp = "48816bf3-2ed4-4a6d-aed9-7703a86cb453",
+                            Id = "3d541e71-4a82-4706-974a-611fbc5f4db8",
+                            ConcurrencyStamp = "6d488586-69f1-461e-850d-68bb2a619f44",
                             Name = "Владелец сети",
                             NormalizedName = "ВЛАДЕЛЕЦ СЕТИ"
                         },
                         new
                         {
-                            Id = "ca7f9b07-fb52-4415-9c72-3fe57330491a",
-                            ConcurrencyStamp = "d8036965-224d-4e50-82bc-7b9c2041079b",
+                            Id = "6730839f-f7b0-49be-9806-727fa21b1778",
+                            ConcurrencyStamp = "f31131e9-9e8e-48f0-a8b7-decb09e5a216",
                             Name = "Директор",
                             NormalizedName = "ДИРЕКТОР"
                         },
                         new
                         {
-                            Id = "916d57ba-e7da-41a0-ad92-6da9d16970e5",
-                            ConcurrencyStamp = "08b27bd5-4375-41f6-9b73-ff751454cd2e",
+                            Id = "a058182c-ac4d-4322-8e63-8148efe4e68c",
+                            ConcurrencyStamp = "a2b471a1-17a5-4472-9f57-35b616f21364",
                             Name = "Горничные",
                             NormalizedName = "ГОРНИЧНЫЕ"
                         },
                         new
                         {
-                            Id = "b6131b4f-49ee-4bfb-a8fa-74ff1ff39300",
-                            ConcurrencyStamp = "1e697b90-75c3-4c49-b6c1-c388d972facb",
+                            Id = "a05c318f-5058-4ce8-8136-fed24b84d78c",
+                            ConcurrencyStamp = "b8e6185d-702d-4657-bbd9-72a87fce369b",
                             Name = "Повар в отеле",
                             NormalizedName = "ПОВАР В ОТЕЛЕ"
                         },
                         new
                         {
-                            Id = "80f84687-4f41-44ae-9649-1704e38414d8",
-                            ConcurrencyStamp = "ff381d31-11a0-4de7-b28f-ddd8167c09d8",
+                            Id = "f6141a02-2efd-4e0b-a375-b2f09b41b305",
+                            ConcurrencyStamp = "e0191a73-b09a-4a61-abd8-869ca6f43929",
                             Name = "Сотрудник рецепции",
                             NormalizedName = "СОТРУДНИК РЕЦЕПЦИИ"
                         },
                         new
                         {
-                            Id = "6e657972-3eb9-481b-a3e4-37f590829ffb",
-                            ConcurrencyStamp = "3d64c474-7ee1-478d-b36a-1ac9dbe84284",
+                            Id = "5131f5f5-db41-41ed-b9eb-e37280581f77",
+                            ConcurrencyStamp = "c0edd945-80fe-4b9d-9752-999ea9e7f034",
                             Name = "Зарегистрированный клиент",
                             NormalizedName = "ЗАРЕГИСТРИРОВАННЫЙ КЛИЕНТ"
                         });
@@ -309,10 +312,6 @@ namespace hotelcourseworkV2.Migrations
                         .HasColumnName("id_dish");
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
-
-                    b.Property<decimal>("Price")
-                        .HasColumnType("numeric")
-                        .HasColumnName("price");
 
                     b.Property<string>("Recipe")
                         .IsRequired()
