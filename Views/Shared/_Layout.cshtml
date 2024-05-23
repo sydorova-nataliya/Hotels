@@ -87,6 +87,9 @@
                                     @if(User.IsInRole("Зарегистрированный клиент")){
                                         <a class="dropdown-item" asp-action="Guest" asp-controller="Guest">Зареєстрований клієнт</a>
                                     }
+                                    @if(User.IsInRole("Горничные")){
+                                        <a class="dropdown-item" asp-action="Cleaner" asp-controller="Cleaner">Прибиральници</a>
+                                    }
                                 </div>
                             </li>
                         }

@@ -1,5 +1,4 @@
 @model IEnumerable<hotelcourseworkV2.Models.HotelRoom>
-
 <div class="card">
     <div class="card-header">
         <h3 class="card-title">Список номерів</h3>
@@ -20,7 +19,10 @@
                         <th scope="col"><i class="fas fa-layer-group"></i> Поверх</th>
                         <th scope="col"><i class="fas fa-door-closed"></i> Кількість кімнат</th>
                         <th scope="col"><i class="fas fa-users"></i> Кількість місць</th>
-                        <th scope="col">Дії</th> <!-- Додали стовпчик для дій -->
+                        @if(User.IsInRole("Горничные")){
+                            <th scope="col"><i class="fas fa-status"></i>Статус</th>
+                        }
+                        <th scope="col">Дії</th> 
                     </tr>
                 </thead>
                 <tbody>
@@ -32,9 +34,26 @@
                             <td>@item.FloorRoom</td>
                             <td>@item.AmountRoom</td>
                             <td>@item.AmountPlace</td>
+                            @if(User.IsInRole("Горничные")){
+                                  <td class="status">
+                                    @if (item.IsStatus == false)
+                                    {
+                                        <p>Зайнята</p>
+                                    }
+                                    else if (item.IsStatus == true)
+                                    {
+                                        
+                                        <p>Вільна</p>
+                                    }
+                                </td>
+                            }
                             <td>
-                                <!-- Додали кнопки для дій -->
-                                <a href="@Url.Action("ReserveRoom", "Reserve", new { id = item.Id })" class="btn btn-primary"><i class="fas fa-calendar-plus"></i> Забронювати</a>
+                                @if(User.IsInRole("Горничные")){
+                                    <button class="btn btn-primary clean-room" data-id="@item.Id" @(item.IsStatus == true ? "disabled" : "")>Прибрати</button>
+                                }else{
+                                    <a href="@Url.Action("ReserveRoom", "Reserve", new { id = item.Id })" class="btn btn-primary"><i class="fas fa-calendar-plus"></i> Забронювати</a>
+                                }
+                                
                             </td>
                         </tr>
                     }
@@ -43,3 +62,28 @@
         </div>
     </div>
 </div>
+<script>
+        $(document).ready(function () {
+            $('.clean-room').click(function () {
+                var roomId = $(this).data('id');
+                var button = $(this);
+
+                $.ajax({
+                    url: '@Url.Action("CleanRoom", "Cleaner")',
+                    type: 'POST',
+                    data: { id: roomId },
+                    success: function (response) {
+                        if (response.success) {
+                            button.closest('tr').find('.status').text('true');
+                            button.prop('disabled', true);
+                        } else {
+                            alert('Error: ' + response.message);
+                        }
+                    },
+                    error: function () {
+                        alert('Error occurred while cleaning the room.');
+                    }
+                });
+            });
+        });
+    </script>

@@ -17,49 +17,24 @@ namespace hotelcourseworkV2.Controllers
             _context = context;
             _userManager = userManager;
         }
+
         [HttpGet]
-        public async Task<IActionResult> ReserveCreate(int id)
+        public async Task<IActionResult> ReserveRoom(int id)
         {
             var room = _context.hotelRooms.FirstOrDefault(h => h.Id == id);
             if (room != null)
             {
+                ViewBag.Price = room.Price;
                 ViewBag.RoomId = room.Id;
             }
-            var guests = await _userManager.GetUsersInRoleAsync("Зарегистрированный клиент");
-            //ViewBag.HotelTypeRoomId = new SelectList(_context.hotelRooms.ToList(), "Id", "NumberRoom");
-            ViewBag.QuestId = new SelectList(guests, "Id", "UserName");
+            if(User.IsInRole("Сотрудник рецепции")){
+                var guests = await _userManager.GetUsersInRoleAsync("Зарегистрированный клиент");
+                ViewBag.QuestId = new SelectList(guests, "Id", "UserName");
+            }else{
 
-            return View();
-        }
-
-        public IActionResult ReserveCreate(ReserveRoom reserve)
-        {
-            reserve.DepartureDate = reserve.DepartureDate.ToUniversalTime();
-            reserve.ArrivalDate = reserve.ArrivalDate.ToUniversalTime();
-            reserve.BookingDate = reserve.BookingDate.ToUniversalTime();
-
-            _context.reserves.Add(reserve);
-            _context.SaveChanges();
-            var user = HttpContext.User;
-            if (user.IsInRole("Сотрудник рецепции"))
-            {
-                return RedirectToAction("Reseption", "Reseption");
+                ViewBag.QuestId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
             }
-            else
-            {
-                return RedirectToAction("Guest", "Guest");
-            }
-        }
 
-        [HttpGet]
-        public IActionResult ReserveRoom(int id)
-        {
-            var room = _context.hotelRooms.FirstOrDefault(h => h.Id == id);
-            if (room != null)
-            {
-                ViewBag.RoomId = room.Id;
-            }
-            ViewBag.QuestId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
             return View();
         }
 
@@ -68,6 +43,11 @@ namespace hotelcourseworkV2.Controllers
             reserve.DepartureDate = reserve.DepartureDate.ToUniversalTime();
             reserve.ArrivalDate = reserve.ArrivalDate.ToUniversalTime();
             reserve.BookingDate = reserve.BookingDate.ToUniversalTime();
+            var room = _context.hotelRooms.FirstOrDefault(r => r.Id == reserve.HotelTypeRoomId);
+            if (room != null)
+            {
+                room.IsStatus = false; // Обновление статуса комнаты на false
+            }
             _context.reserves.Add(reserve);
             _context.SaveChanges();
             var user = HttpContext.User;
@@ -90,8 +70,19 @@ namespace hotelcourseworkV2.Controllers
                 return NotFound();
             }
 
+            var room = _context.hotelRooms.FirstOrDefault(r => r.Id == reserve.HotelTypeRoomId);
+            if (room == null)
+            {
+                return NotFound(new { success = false, message = "Room not found" });
+            }
+
             _context.reserves.Remove(reserve);
-            _context.SaveChanges();
+            if(room.IsStatus == true){
+                _context.SaveChanges();
+            }else{
+                room.IsStatus = true;
+                _context.SaveChanges();
+            }
 
             var user = HttpContext.User;
 

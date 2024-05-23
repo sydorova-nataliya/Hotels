@@ -2,11 +2,6 @@
 //Ціна 
 //Тип замовлення(ресторан,сервіс,бронювання....)
 //Дата
-//Комната
-//Добавить проверку есть ли забронированая комната у клієнта
-//Автоматическое удаление после истичения срока броні
-//Назва меню
-//Виправити меню
 using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -24,12 +19,16 @@ namespace hotelcourseworkV2.Models
         public TypeOrder TypeOrderId {get;set;}
 
         [Column("type_order")]
-        [Display(Name = "Типо ордера")]
+        [Display(Name = "Тип ордера")]
         public string TypeOrder { get; set; }
 
         [Column("client_id")]
         public string Client_id {get;set;}
         public Account Client {get;set;}
+
+        [Column("price")]
+        [Display(Name = "Ціна")]
+        public decimal Price {get;set;}
 
         [Column("date_create")]
         [DataType(DataType.Date)]

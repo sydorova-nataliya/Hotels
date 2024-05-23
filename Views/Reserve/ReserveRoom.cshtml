@@ -4,10 +4,6 @@
     ViewData["Title"] = "Створити";
 }
 
-@{
-    Random random = new Random();
-    int price = random.Next(500, 1501);
-}
 
 <div class="container">
     <div class="row justify-content-center">
@@ -19,8 +15,17 @@
                 <div class="card-body">
                     <form asp-action="ReserveRoom">
                         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                        <input asp-for="QuestId" class="form-control" value="@ViewBag.QuestId" hidden />
-                        <input asp-for="HotelTypeRoomId" class="form-control" value="@ViewBag.RoomId" hidden />
+                        @if(User.IsInRole("Сотрудник рецепции")){
+                            <div class="form-group">
+                                <label asp-for="QuestId" class="control-label">Оберіть гостя</label>
+                                <select asp-for="QuestId" class="form-control" asp-items="ViewBag.QuestId"></select>
+                            </div>
+                            <input asp-for="HotelTypeRoomId" class="form-control" value="@ViewBag.RoomId" readonly />
+                        }else{
+
+                            <input asp-for="QuestId" class="form-control" value="@ViewBag.QuestId" hidden />
+                            <input asp-for="HotelTypeRoomId" class="form-control" value="@ViewBag.RoomId" hidden />
+                        }
                         <div class="form-group">
                             <label asp-for="BookingDate" class="control-label">Дата бронювання</label>
                             <input asp-for="BookingDate" class="form-control" min="@DateTime.Now.ToString("yyyy-MM-dd")" />
@@ -37,17 +42,8 @@
                             <span asp-validation-for="DepartureDate" class="text-danger"></span>
                         </div>
                         <div class="form-group">
-                            <label class="control-label">Оберіть послугу</label>
-                            <select class="form-control">
-                                <option value="">----Оберіть послугу----</option>
-                                <option value="1">Басейн</option>
-                                <option value="2">Спа</option>
-                                <option value="3">Прокат автомобілів</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label asp-for="Price" class="control-label">Середня ціна</label>
-                            <input asp-for="Price" class="form-control" value="@price" readonly />
+                            <label asp-for="Price" class="control-label">Ціна</label>
+                            <input asp-for="Price" class="form-control" value="@ViewBag.Price" readonly />
                         </div>
                         <div class="form-group text-center">
                             <button type="submit" class="btn btn-primary btn-lg">Забронювати</button>

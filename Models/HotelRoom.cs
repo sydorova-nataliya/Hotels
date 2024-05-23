@@ -35,6 +35,10 @@ namespace hotelcourseworkV2.Models
         [Column("amount_place")]
         [Display(Name = "Кількість місць")]
         public int AmountPlace { get; set; }
+
+        [Display(Name = "Статус")]
+        [Column("status")]
+        public bool ?IsStatus {get;set;}
         
 
 

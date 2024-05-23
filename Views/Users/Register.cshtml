@@ -64,7 +64,7 @@
                             var roleList = new SelectList(Model.RoleList, "Value", "Text");
                             var selectedRole = roleList.FirstOrDefault(r => r.Text == "Зарегистрированный клиент").Value;
                         }
-                        @Html.DropDownListFor(m => m.RoleName, new SelectList(new[] { selectedRole }), "-- Вибрати роль --", new { @class = "form-control" })
+                        @Html.DropDownListFor(m => m.RoleName, new SelectList(new[] { selectedRole }), "-- Обрати роль --", new { @class = "form-control" })
                         @Html.ValidationMessageFor(m => m.RoleName)
                     </div>
                 </div>

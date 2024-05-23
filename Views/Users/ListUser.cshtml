@@ -1,4 +1,4 @@
-﻿<div class="card">
+﻿<div class="card my-5">
     <div class="card-header bg-primary text-white">
         <h3 class="card-title">Список користувачів</h3>
     </div>
@@ -26,7 +26,7 @@
                             {
                                 <tr>
                                     <td>
-                                        <img src="https://via.placeholder.com/50" alt="Avatar" class="rounded-circle">
+                                        <img src="https://png.pngtree.com/png-clipart/20200225/original/pngtree-avatar-vector-icon-white-background-png-image_5259668.jpg" alt="Avatar" class="rounded-circle" width="50" height="50">
                                     </td>
                                     <td>@user.Name</td>
                                     <td>@user.LastName</td>
@@ -37,7 +37,7 @@
                         else
                         {
                             <tr>
-                                <td colspan="4"><h3 class="text-center text-muted">Немає користувачів</h3></td>
+                                <td colspan="5"><h3 class="text-center text-muted">Немає користувачів</h3></td>
                             </tr>
                         }
                     </tbody>
@@ -47,3 +47,16 @@
     </div>
 </div>
 
+@section Styles {
+    <style>
+        .table th, .table td {
+            vertical-align: middle;
+        }
+        .btn-outline-primary, .btn-outline-danger {
+            margin-right: 5px;
+        }
+        .rounded-circle {
+            object-fit: cover;
+        }
+    </style>
+}

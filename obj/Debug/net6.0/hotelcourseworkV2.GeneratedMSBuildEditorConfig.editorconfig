@@ -182,6 +182,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlZlxDaGVmLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Maks/Desktop/hotelV2/hotelcourseworkV2/Views/Cleaner/Cleaner.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xlYW5lclxDbGVhbmVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Maks/Desktop/hotelV2/hotelcourseworkV2/Views/Composition/CompositionCreate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9zaXRpb25cQ29tcG9zaXRpb25DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -276,10 +280,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Maks/Desktop/hotelV2/hotelcourseworkV2/Views/Reseption/Reseption.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXB0aW9uXFJlc2VwdGlvbi5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Maks/Desktop/hotelV2/hotelcourseworkV2/Views/Reserve/ReserveCreate.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2ZVxSZXNlcnZlQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Maks/Desktop/hotelV2/hotelcourseworkV2/Views/Reserve/ReserveList.cshtml]
