@@ -40,5 +40,6 @@ namespace hotelcourseworkV2.Models
         public decimal Price {get;set;}
 
         public virtual ICollection<MenuDish> MenuDishes { get; set; }
+        public virtual ICollection<Composition> Compositions { get; set; }
     }
 }

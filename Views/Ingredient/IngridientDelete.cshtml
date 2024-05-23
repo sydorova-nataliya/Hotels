@@ -1,0 +1,10 @@
+@model hotelcourseworkV2.Models.Ingredient
+
+<h1>Видалення</h1>
+
+<form asp-action="IngridientDelete" method="post">
+    <h3>Ви впевнені?</h3>
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Видалити</button>
+    <a asp-action="Index" class="btn btn-secondary">Відміна</a>
+</form>

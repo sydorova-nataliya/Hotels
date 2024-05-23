@@ -26,5 +26,6 @@ namespace hotelcourseworkV2.Models
         [MaxLength(20)]
         [Display(Name = "Юніт")]
         public string Unit { get; set; }
+        public virtual ICollection<Composition> Compositions { get; set; }
     }
 }

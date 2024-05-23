@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using hotelcourseworkV2.Data;
@@ -11,9 +12,11 @@ using hotelcourseworkV2.Data;
 namespace hotelcourseworkV2.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240522134542_update_dish_composition_ingridient")]
+    partial class update_dish_composition_ingridient
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -50,43 +53,43 @@ namespace hotelcourseworkV2.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "24188499-3190-4f85-8c21-4f22cb4a92e0",
-                            ConcurrencyStamp = "9b57dea2-5fb8-48b9-afbe-cedd26592468",
+                            Id = "a8847759-04db-4bb1-b08b-9fbc91b23440",
+                            ConcurrencyStamp = "f1cc2b5c-6d3e-4500-8371-3295ce8b0c0c",
                             Name = "Владелец сети",
                             NormalizedName = "ВЛАДЕЛЕЦ СЕТИ"
                         },
                         new
                         {
-                            Id = "16b4b03a-b62a-46bb-9383-268cd00e4a5b",
-                            ConcurrencyStamp = "d2a957af-6a2f-4d87-9101-b38022d12831",
+                            Id = "d7c943ac-d7bd-43e6-9379-c78e02e9a86a",
+                            ConcurrencyStamp = "5ecfd994-11c0-4d42-8571-1279b88f4234",
                             Name = "Директор",
                             NormalizedName = "ДИРЕКТОР"
                         },
                         new
                         {
-                            Id = "79a023bf-a795-4ec5-a015-d5cbeab6665c",
-                            ConcurrencyStamp = "90c2077a-f093-4f8c-a933-0fe35a6aeba9",
+                            Id = "0620162b-4259-49f5-b8a8-d309f5418362",
+                            ConcurrencyStamp = "d086c706-f409-4bab-b650-3a3afa66aefa",
                             Name = "Горничные",
                             NormalizedName = "ГОРНИЧНЫЕ"
                         },
                         new
                         {
-                            Id = "f2abaa1c-bb95-42fd-93ba-cab81a58d901",
-                            ConcurrencyStamp = "a87d5868-f7db-4741-8b2e-7c7b306686bf",
+                            Id = "8fcaae98-b088-40fc-b265-aa867146c601",
+                            ConcurrencyStamp = "67c1c375-586b-49e4-a486-5af0055aa4ea",
                             Name = "Повар в отеле",
                             NormalizedName = "ПОВАР В ОТЕЛЕ"
                         },
                         new
                         {
-                            Id = "b91c6f61-78d2-46dc-9548-6694c13be1ca",
-                            ConcurrencyStamp = "91b5082a-dd77-4770-9241-87984f4adef0",
+                            Id = "7d108a05-9a7a-4064-b932-69f998001820",
+                            ConcurrencyStamp = "141f2e17-ba37-417c-8ff6-f6f6a5d2d561",
                             Name = "Сотрудник рецепции",
                             NormalizedName = "СОТРУДНИК РЕЦЕПЦИИ"
                         },
                         new
                         {
-                            Id = "984b49c8-939a-4116-870d-2e04bac669bf",
-                            ConcurrencyStamp = "82f351a6-ae84-47f9-abe3-50b80d7fa604",
+                            Id = "2ff25d85-3d79-4b23-bbd1-fc15c307114d",
+                            ConcurrencyStamp = "8ebdf565-3af0-4db6-9891-857ced67151e",
                             Name = "Зарегистрированный клиент",
                             NormalizedName = "ЗАРЕГИСТРИРОВАННЫЙ КЛИЕНТ"
                         });
@@ -276,13 +279,6 @@ namespace hotelcourseworkV2.Migrations
 
             modelBuilder.Entity("hotelcourseworkV2.Models.Composition", b =>
                 {
-                    b.Property<int>("CompositionId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer")
-                        .HasColumnName("copmosition_id");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("CompositionId"));
-
                     b.Property<int>("DishId")
                         .HasColumnType("integer")
                         .HasColumnName("id_dish")
@@ -293,9 +289,7 @@ namespace hotelcourseworkV2.Migrations
                         .HasColumnName("id_ingredient")
                         .HasColumnOrder(1);
 
-                    b.HasKey("CompositionId");
-
-                    b.HasIndex("DishId");
+                    b.HasKey("DishId");
 
                     b.HasIndex("IngredientId");
 

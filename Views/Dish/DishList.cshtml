@@ -1,44 +1,64 @@
 ﻿@model IEnumerable<hotelcourseworkV2.Models.Dish>
 
-<div class="container">
-    <h1>Список страв</h1>
+<div class="container my-5">
+    <div class="text-center mb-4">
+        <h1 class="mb-4">Страви</h1>
+        <a href="@Url.Action("DishCreate", "Dish")" class="btn btn-primary">Створити</a>
+    </div>
 
-    <p>
-        <a asp-controller="Dish" asp-action="DishCreate" class="btn btn-primary">Додати нове</a>
-    </p>
-
-    <div class="card">
-        <div class="card-body">
-            <div class="table-responsive">
-                <table class="table table-bordered table-striped">
-                    <thead class="thead-dark">
-                        <tr>
-                            <th>Назва</th>
-                            <th>Рецепт</th>
-                            <th>Вага</th>
-                            <th>Одиниця</th>
-                            <th></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        @foreach (var item in Model)
-                        {
-                            <tr>
-                                <td>@Html.DisplayFor(modelItem => item.Title)</td>
-                                <td>@Html.DisplayFor(modelItem => item.Recipe)</td>
-                                <td>@Html.DisplayFor(modelItem => item.Weight)</td>
-                                <td>@Html.DisplayFor(modelItem => item.Unit)</td>
-                                <td>
-                                    <div class="btn-group">
-                                        <a href="#" class="btn btn-success">Редагувати</a>
-                                        <a href="#" class="btn btn-danger">Видалити</a>
-                                    </div>
-                                </td>
-                            </tr>
-                        }
-                    </tbody>
-                </table>
+    <div class="row row-cols-3 row-cols-md-3 g-4">
+        @foreach (var dish in Model)
+        {
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://img.freepik.com/premium-vector/roast-chicken-on-a-plate-black-and-white-vector-illustration_1039458-920.jpg" class="card-img-top" alt="@dish.Title">
+                    <div class="card-body">
+                        <p class="card-text card-text-sm"><strong>Назва: </strong> @dish.Title</p>
+                        <p class="card-text card-text-sm"><strong>Рецепт: </strong>@dish.Recipe</p>
+                        <p class="card-text card-text-sm"><strong>Вага:</strong> @dish.Weight грамм, <strong>Кількість:</strong> @dish.Unit</p>
+                        <p class="card-text card-text-sm"><strong>Ціна:</strong> @dish.Price грн</p>
+                        <p class="card-text"><strong>Інгредієнти:</strong></p>
+                        <ul>
+                            @foreach (var composition in dish.Compositions)
+                            {
+                                <li>@composition.Ingredient.Title</li>
+                            }
+                        </ul>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="@Url.Action("EditDish", "Dish", new { id = dish.Id })" class="btn btn-sm btn-outline-primary">Редагувати</a>
+                            <a href="@Url.Action("DeleteDish", "Dish", new { id = dish.Id })" class="btn btn-sm btn-outline-danger">Видалити</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
+        }
     </div>
 </div>
+
+@section Styles {
+    <style>
+        .card {
+            transition: transform 0.2s;
+            width: 100%; /* Ширина карты по умолчанию */
+            height: 100% ;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card-title {
+            font-size: 1.25rem;
+            font-weight: bold;
+        }
+        .card-text {
+            font-size: 1rem;
+        }
+        .card-title-sm {
+            font-size: 1rem;
+        }
+        .card-text-sm {
+            font-size: 0.9rem;
+        }
+    </style>
+}

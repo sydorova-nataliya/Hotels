@@ -22,7 +22,7 @@ namespace hotelcourseworkV2.Controllers
         [HttpPost]
         public IActionResult IngridientCreate(Ingredient model)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 _context.ingredients.Add(model);
                 _context.SaveChanges();
@@ -33,14 +33,21 @@ namespace hotelcourseworkV2.Controllers
             return View(model);
         }
 
-        [HttpPost]
+        [HttpGet]
         public IActionResult IngridientDelete(int id)
         {
-            var ingredient = _context.ingredients.Find(id);
+            var ingredient = _context.dishes.FirstOrDefault(d => d.Id == id);
             if (ingredient == null)
             {
                 return NotFound();
             }
+
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult IngridientDelete(Ingredient ingredient)
+        {
 
             _context.ingredients.Remove(ingredient);
             _context.SaveChanges();

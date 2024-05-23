@@ -11,6 +11,7 @@ namespace hotelcourseworkV2.Models
         [Column("id_type_order")]
         public int Id { get; set; }
         [Column("name_type_order")]
+        [Display(Name = "Тип трансакции")]
         public string Name { get; set; }
     }
 }

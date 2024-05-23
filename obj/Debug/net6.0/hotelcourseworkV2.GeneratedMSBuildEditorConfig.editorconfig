@@ -194,12 +194,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlyZWN0b3JcRGlyZWN0b3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Maks/Desktop/hotelV2/hotelcourseworkV2/Views/Dish/DeleteDish.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzaFxEZWxldGVEaXNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Maks/Desktop/hotelV2/hotelcourseworkV2/Views/Dish/DishCreate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzaFxEaXNoQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Maks/Desktop/hotelV2/hotelcourseworkV2/Views/Dish/DishList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzaFxEaXNoTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Maks/Desktop/hotelV2/hotelcourseworkV2/Views/Dish/EditDish.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzaFxFZGl0RGlzaC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Maks/Desktop/hotelV2/hotelcourseworkV2/Views/Guest/Guest.cshtml]
@@ -244,6 +252,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Maks/Desktop/hotelV2/hotelcourseworkV2/Views/Ingredient/IngridientCreate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5ncmVkaWVudFxJbmdyaWRpZW50Q3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Maks/Desktop/hotelV2/hotelcourseworkV2/Views/Ingredient/IngridientDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5ncmVkaWVudFxJbmdyaWRpZW50RGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Maks/Desktop/hotelV2/hotelcourseworkV2/Views/Menu/EditMenu.cshtml]
