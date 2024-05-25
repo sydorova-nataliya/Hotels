@@ -11,37 +11,37 @@ namespace hotelcourseworkV2.Configuration
             builder.HasData(
                 new IdentityRole
                 {
-                    Id = Guid.NewGuid().ToString(),
+                    Id = "1",
                     Name = "Владелец сети",
                     NormalizedName = "ВЛАДЕЛЕЦ СЕТИ"
                 },
                 new IdentityRole
                 {
-                    Id = Guid.NewGuid().ToString(),
+                    Id = "2",
                     Name = "Директор",
                     NormalizedName = "ДИРЕКТОР"
                 },
                 new IdentityRole
                 {
-                    Id = Guid.NewGuid().ToString(),
+                    Id = "3",
                     Name = "Горничные",
                     NormalizedName = "ГОРНИЧНЫЕ"
                 },
                 new IdentityRole
                 {
-                    Id = Guid.NewGuid().ToString(),
+                    Id = "4",
                     Name = "Повар в отеле",
                     NormalizedName = "ПОВАР В ОТЕЛЕ"
                 },
                 new IdentityRole
                 {
-                    Id = Guid.NewGuid().ToString(),
+                    Id = "5",
                     Name = "Сотрудник рецепции",
                     NormalizedName = "СОТРУДНИК РЕЦЕПЦИИ"
                 },
                 new IdentityRole
                 {
-                    Id = Guid.NewGuid().ToString(),
+                    Id = "6",
                     Name = "Зарегистрированный клиент",
                     NormalizedName = "ЗАРЕГИСТРИРОВАННЫЙ КЛИЕНТ"
                 }

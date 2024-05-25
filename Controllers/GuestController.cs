@@ -16,8 +16,13 @@ namespace hotelcourseworkV2.Controllers
         [Authorize(Roles = "Зарегистрированный клиент")]
         public IActionResult Guest()
         {
-            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value; 
-            ViewData["Reserve"] = _context.reserves.Include(s => s.HotelTypeRoom).ThenInclude(t => t.typeRoom).Include(u => u.Quest).Where(g => g.QuestId == userId).ToList();
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            ViewData["Reserve"] = _context.reserves
+                                        .Include(s => s.HotelTypeRoom)
+                                        .ThenInclude(t => t.typeRoom)
+                                        .Include(u => u.Quest)
+                                        .Where(g => g.QuestId == userId)
+                                        .ToList();
             return View();
         }
     }

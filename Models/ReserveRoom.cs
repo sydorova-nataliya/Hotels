@@ -37,6 +37,8 @@ namespace hotelcourseworkV2.Models
 
         [Column("price")]
         public decimal Price { get; set; }
+        public virtual ICollection<ReserveDish> ?reserveDishes {get; set;}
+        //public ICollection<ServicesReserve> servicesReserves {get;set;}
 
     }
 }

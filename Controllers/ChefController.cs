@@ -21,7 +21,7 @@ namespace hotelcourseworkV2.Controllers
             ViewData["Dish"] =  _context.dishes
                                        .Include(d => d.Compositions)
                                        .ThenInclude(c => c.Ingredient)
-                                       .ToList();;
+                                       .ToList();
             return View();
         }
     }

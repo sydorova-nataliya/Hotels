@@ -2,7 +2,8 @@
 
 <div class="container">
     <h1 class="my-4 text-center">Меню</h1>
-    @if(User.IsInRole("Повар в отеле")){
+    @if (User.IsInRole("Повар в отеле"))
+    {
         <p class="text-center">
             <a asp-controller="Menu" asp-action="MenuCreate" class="btn btn-primary">Додати меню</a>
         </p>
@@ -26,19 +27,18 @@
                                     {
                                         <li class="list-group-item d-flex align-items-center justify-content-between">
                                             <div class="d-flex align-items-center">
-                                                <img src="https://img.freepik.com/premium-vector/roast-chicken-on-a-plate-black-and-white-vector-illustration_1039458-920.jpg" class="img-thumbnail mr-3" style="height: 100px; width: 100px;">
+                                                <img src="https://img.freepik.com/premium-vector/roast-chicken-on-a-plate-black-and-white-vector-illustration_1039458-920.jpg"
+                                                    class="img-thumbnail mr-3" style="height: 100px; width: 100px;">
                                                 <div>
                                                     @if (menudish != null && menudish.Dish != null)
                                                     {
-                                                        <p class="mb-0"><strong>@menudish.Dish.Title</strong> - Вага: @menudish.Dish.Weight | Ціна: @menudish.Dish.Price ₴</p>
+                                                        <p class="mb-0"><strong>@menudish.Dish.Title</strong> - Вага: @menudish.Dish.Weight
+                                                            | Ціна: @menudish.Dish.Price ₴</p>
                                                     }
                                                 </div>
                                             </div>
                                             <div class="btn-group">
-                                                @if(User.IsInRole("Зарегистрированный клиент")){
-                                                    <a asp-controller="Order" asp-action="Create" asp-route-dishId="@menudish.Dish.Id" class="btn btn-success">Замовити</a>
-                                                }
-                                                @if(User.IsInRole("Повар в отеле"))
+                                                @if (User.IsInRole("Повар в отеле"))
                                                 {
                                                     <form asp-controller="Menu" asp-action="MenuDishDelete" method="post" class="ml-2">
                                                         <input type="hidden" name="id" value="@menudish.Id" />
@@ -56,7 +56,7 @@
                             {
                                 <p class="card-text">Страви відсутні.</p>
                             }
-                            @if(User.IsInRole("Повар в отеле"))
+                            @if (User.IsInRole("Повар в отеле"))
                             {
                                 <div class="btn-group w-100 mt-3">
                                     <form asp-controller="Menu" asp-action="MenuDelete" method="post" class="w-50 pr-1">
@@ -65,10 +65,15 @@
                                             <i class="fas fa-trash-alt"></i> Видалити меню
                                         </button>
                                     </form>
-                                    <a asp-controller="Menu" asp-action="EditMenu" asp-route-id="@menu.Id" class="btn btn-success w-50 pl-1">Редагувати</a>
+                                    <a asp-controller="Menu" asp-action="EditMenu" asp-route-id="@menu.Id"
+                                        class="btn btn-success w-50 pl-1">Редагувати</a>
                                 </div>
                             }
                         </div>
+                        @if (User.IsInRole("Зарегистрированный клиент"))
+                        {
+                            <a asp-controller="Reserve" asp-action="ReserveDishCreate" asp-route-menuid="@menu.Id" class="btn btn-success">Замовити</a>
+                        }
                     </div>
                 </div>
             }

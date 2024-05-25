@@ -11,7 +11,7 @@ namespace hotelcourseworkV2.Data
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {
-            //Database.EnsureCreated();
+            Database.EnsureCreated();
         }
 
         public DbSet<Composition> compositions { get; set; }
@@ -24,8 +24,9 @@ namespace hotelcourseworkV2.Data
         public DbSet<ReserveRoom> reserves { get; set; }
         public DbSet<ServicesReserve> servicesReserves { get; set; }
         public DbSet<TypeRoom> typeRooms { get; set; }
-
         public DbSet<MenuDish> menuDishes {get;set;}
+        public DbSet<ReserveDish> reserveDishes {get;set;}
+        public DbSet<MenuDishReserveDish> menuDishReserveDishes {get;set;}
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
@@ -51,7 +52,7 @@ namespace hotelcourseworkV2.Data
             .HasForeignKey(md => md.DishId);
         }
 
-        public DbSet<hotelcourseworkV2.Models.Services>? Services { get; set; }
+        public DbSet<Services>? Services { get; set; }
 
     }
 }

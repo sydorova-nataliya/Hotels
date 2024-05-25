@@ -16,7 +16,7 @@ namespace hotelcourseworkV2.Models
 
         [ForeignKey("Dish")]
         [Column("dish_id")]
-        public int DishId { get; set; }
+        public int DishId { get; set; } 
         public Dish Dish { get; set; }
     }
 }

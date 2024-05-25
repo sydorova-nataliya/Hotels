@@ -85,7 +85,8 @@
                                         <a class="dropdown-item" asp-action="Reseption" asp-controller="Reseption">Співробітник рецепції</a>
                                     }
                                     @if(User.IsInRole("Зарегистрированный клиент")){
-                                        <a class="dropdown-item" asp-action="Guest" asp-controller="Guest">Зареєстрований клієнт</a>
+                                        <a class="dropdown-item" asp-action="Guest" asp-controller="Guest">Бронювання</a>
+                                        <a class="dropdown-item" asp-action="ReserveDishList" asp-controller="Reserve">Замовлення</a>
                                     }
                                     @if(User.IsInRole("Горничные")){
                                         <a class="dropdown-item" asp-action="Cleaner" asp-controller="Cleaner">Прибиральници</a>

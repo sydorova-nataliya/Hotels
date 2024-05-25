@@ -282,6 +282,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXB0aW9uXFJlc2VwdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Maks/Desktop/hotelV2/hotelcourseworkV2/Views/Reserve/ReserveDishCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2ZVxSZXNlcnZlRGlzaENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Maks/Desktop/hotelV2/hotelcourseworkV2/Views/Reserve/ReserveDishList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2ZVxSZXNlcnZlRGlzaExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Maks/Desktop/hotelV2/hotelcourseworkV2/Views/Reserve/ReserveList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2ZVxSZXNlcnZlTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -296,14 +304,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Maks/Desktop/hotelV2/hotelcourseworkV2/Views/Room/ListRoom.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxMaXN0Um9vbS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Maks/Desktop/hotelV2/hotelcourseworkV2/Views/Services/CreateServices.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZXNcQ3JlYXRlU2VydmljZXMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Maks/Desktop/hotelV2/hotelcourseworkV2/Views/Services/ServicesList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZXNcU2VydmljZXNMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Maks/Desktop/hotelV2/hotelcourseworkV2/Views/Shared/Error.cshtml]

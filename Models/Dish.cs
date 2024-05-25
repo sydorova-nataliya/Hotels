@@ -41,5 +41,6 @@ namespace hotelcourseworkV2.Models
 
         public virtual ICollection<MenuDish> MenuDishes { get; set; }
         public virtual ICollection<Composition> Compositions { get; set; }
+        public virtual ICollection<MenuDishReserveDish> menuDishReserveDishes {get;set;}
     }
 }
