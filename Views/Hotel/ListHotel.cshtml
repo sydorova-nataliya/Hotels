@@ -4,36 +4,144 @@
     ViewData["Title"] = "Список отелей";
 }
 
-<div class="container">
-    <div class="row mb-3">
+<div class="container my-4">
+    <div class="row mb-4">
         <div class="col">
-            @if (User.IsInRole("Владелец сети"))
-            {
-                <a asp-controller="Hotel" asp-action="CreateHotel" class="btn btn-primary">Создать отель</a>
-            }
+            <form method="get" class="form-inline">
+                <input type="text" name="searchString" class="form-control mr-sm-2" placeholder="Пошук готелів..." value="@ViewBag.CurrentFilter" />
+                <button type="submit" class="btn btn-outline-primary">Пошук</button>
+            </form>
         </div>
-    </div>
-    <div class="row">
-        @foreach (var item in Model)
+        @if (User.IsInRole("Владелец сети"))
         {
-            <div class="col-md-4 mb-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">@Html.DisplayFor(modelItem => item.Name)</h5>
-                        <p class="card-text">
-                            <strong>Звезды:</strong> @Html.DisplayFor(modelItem => item.Stars)<br />
-                            <strong>Город:</strong> @Html.DisplayFor(modelItem => item.City)<br />
-                            <strong>Улица:</strong> @Html.DisplayFor(modelItem => item.Street)<br />
-                            <strong>Номер телефона:</strong> @Html.DisplayFor(modelItem => item.Owner.PhoneNumber)
-                        </p>
-                        @if (User.IsInRole("Зарегистрированный клиент"))
-                        {
-                            <a asp-action="ReserveRoom" asp-controller="Reserve" class="btn btn-primary">Забронировать</a>
-                        }
-                    </div>
+            <div class="col text-right">
+                <a asp-controller="Hotel" asp-action="CreateHotel" class="btn btn-primary">Створити готель</a>
+            </div>
+        }
+    </div>
+
+    <div class="row">
+        @if (!Model.Any())
+        {
+            <div class="col-12">
+                <div class="alert alert-info text-center" role="alert">
+                    Готелі не знайдено.
                 </div>
             </div>
+        }
+        else
+        {
+            @foreach (var item in Model)
+            {
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="@item.ImagePath" class="card-img-top" alt="Hotel Image">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">@Html.DisplayFor(modelItem => item.Name)</h5>
+                            <ul class="list-unstyled mb-0">
+                                <li><strong>Зірки:</strong> <span class="text-warning">@StarsDisplay(item.Stars)</span></li>
+                                <li><strong>Місто:</strong> @Html.DisplayFor(modelItem => item.City)</li>
+                                <li><strong>Вулиця:</strong> @Html.DisplayFor(modelItem => item.Street)</li>
+                                <li><strong>Номер телефону:</strong> @Html.DisplayFor(modelItem => item.Owner.PhoneNumber)</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer bg-transparent border-0 text-center">
+                            <div class="btn-group" role="group">
+                                @if (User.IsInRole("Зарегистрированный клиент"))
+                                {
+                                    <a href="@Url.Action("HotelRoomList","HotelRoom", new { id = item.Id })" class="btn btn-primary mb-2">Забронювати</a>
+                                    <a href="@Url.Action("MenuList","Menu", new { id = item.Id })" class="btn btn-info mb-2">Меню</a>
+                                    /*<a href="@Url.Action("ServicesList","Service", new { id = item.Id })" class="btn btn-info mb-2">Сервіси</a>*/
+                                }
+                                @if (User.IsInRole("Владелец сети"))
+                                {
+                                    <a href="@Url.Action("EditHotel", "Hotel", new { id = item.Id })" class="btn btn-primary mb-2">Редагувати</a>
+                                    <a href="@Url.Action("ConfirmDeleteHotel", "Hotel", new { id = item.Id })" class="btn btn-danger mb-2">Видалити</a>
+                                }
+                                @if(User.IsInRole("Сотрудник рецепции")){
+
+                                    <a href="@Url.Action("HotelRoomList","HotelRoom", new { id = item.Id })" class="btn btn-primary mb-2">Забронювати</a>
+                                    <a href="@Url.Action("MenuList","Menu", new { id = item.Id })" class="btn btn-info mb-2">Меню</a>
+                                    //<a href="@Url.Action("ServicesList","Service", new { id = item.Id })" class="btn btn-info mb-2">Сервіси</a>
+                                    
+                                }
+                                @if(User.IsInRole("Горничные")){
+
+                                    <a href="@Url.Action("HotelRoomList","HotelRoom", new { id = item.Id })" class="btn btn-primary mb-2">Кімнати</a>
+                                    
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
         }
     </div>
 </div>
 
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f9fa;
+    }
+
+    .navbar {
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-title {
+        font-size: 1.25rem;
+    }
+
+    .card-img-top {
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .btn-info {
+        background-color: #17a2b8;
+        border-color: #17a2b8;
+    }
+
+    .text-warning {
+        font-size: 1.2rem;
+    }
+
+    .btn-group {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .btn-group .btn {
+        margin: 5px;
+    }
+
+    .card-footer {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+</style>
+
+@functions {
+    public string StarsDisplay(int stars)
+    {
+        string starSymbol = "★";
+        string emptyStarSymbol = "☆";
+        string starsDisplay = "";
+
+        for (int i = 0; i < 5; i++)
+        {
+            if (i < stars)
+            {
+                starsDisplay += starSymbol;
+            }
+            else
+            {
+                starsDisplay += emptyStarSymbol;
+            }
+        }
+
+        return starsDisplay;
+    }
+}

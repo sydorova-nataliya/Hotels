@@ -1,38 +1,66 @@
-﻿@model hotelcourseworkV2.Models.Menu
-
+﻿@using hotelcourseworkV2.ViewModels;
+@model MenuCreateViewModel;
 @{
-    ViewData["Title"] = "MenuCreate";
+    ViewData["Title"] = "Створити Меню";
 }
 
-
-<h4>Меню</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="MenuCreate">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="HotelId" class="control-label">Отель</label>
-                <select asp-for="HotelId" class="form-control" asp-items="ViewBag.HotelId"></select>
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        @if (TempData["Message"] != null)
+        {
+            <div class="alert alert-info alert-dismissible fade show mt-3" role="alert">
+                @TempData["Message"]
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
             </div>
-            <div class="form-group">
-                <label asp-for="DishId" class="control-label">Блюдо</label>
-                <select asp-for="DishId" class="form-control" asp-items="ViewBag.DishId"></select>
+        }
+        <div class="card shadow-sm mt-3">
+            <div class="card-header bg-primary text-white">
+                <h2 class="h5 mb-0">Деталі меню</h2>
             </div>
-            <div class="form-group">
-                <label asp-for="Price" class="control-label">Цена</label>
-                <input asp-for="Price" class="form-control" />
-                <span asp-validation-for="Price" class="text-danger"></span>
+            <div class="card-body">
+                <form asp-action="MenuCreate">
+                    <div class="form-group">
+                        <label asp-for="HotelId" class="control-label">Готель</label>
+                        <select asp-for="HotelId" class="form-control" asp-items="ViewBag.Hotels"></select>
+                        <span asp-validation-for="HotelId" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Страви</label>
+                        @foreach (var dish in Model.AvailableDishes)
+                        {
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="SelectedDishIds" value="@dish.Id" id="dish-@dish.Id" />
+                                <label class="form-check-label" for="dish-@dish.Id">@dish.Title</label>
+                            </div>
+                        }
+                    </div>
+                    <div class="form-group text-center">
+                        <input type="submit" value="Створити" class="btn btn-primary btn-block mb-2" />
+                        <a asp-controller="Chef" asp-action="Chef" class="btn btn-secondary btn-block">Повернутись</a>
+                    </div>
+                </form>
             </div>
-            <div class="form-group">
-                <input type="submit" value="Создать" class="btn btn-primary" />
-            </div>
-        </form>
+        </div>
     </div>
 </div>
 
-
-
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
 }
+
+<style>
+    .card {
+        border-radius: 0.75rem;
+    }
+    .card-header {
+        border-top-left-radius: 0.75rem;
+        border-top-right-radius: 0.75rem;
+    }
+    .form-check-label {
+        margin-left: 0.5rem;
+    }
+</style>

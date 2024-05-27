@@ -2,21 +2,22 @@
 
 <div class="card">
     <div class="card-header">
-        <h3 class="card-title">Список номеров</h3>
+        <h3 class="card-title">Список номерів</h3>
     </div>
     <div class="card-body">
-        <a href="@Url.Action("CreateRoom","Room")" class="btn btn-primary">Создать</a>
-        <div class="table-responsive">
+        <a href="@Url.Action("CreateRoom","Room")" class="btn btn-primary">Створити</a>
+        <a href="@Url.Action("AverageMonthlyRevenue","Statistics")" class="btn btn-success">Розрахувати прибуток</a>
+        <div class="table-responsive mt-3">
             <table class="table table-striped">
                 <thead>
                     <tr>
-                        <th>Отель</th>
-                        <th>Тип комнаты</th>
-                        <th>Цена</th>
-                        <th>Номер комнаты</th>
-                        <th>Этаж</th>
-                        <th>Количество комнат</th>
-                        <th>Количество мест</th>
+                        <th scope="col">Готель</th>
+                        <th scope="col">Тип кімнати</th>
+                        <th scope="col">Ціна</th>
+                        <th scope="col">Номер кімнати</th>
+                        <th scope="col">Поверх</th>
+                        <th scope="col">Кількість кімнат</th>
+                        <th scope="col">Кількість місць</th>
                     </tr>
                 </thead>
                 <tbody>

@@ -5,24 +5,24 @@
 }
 
 
-<h4>Ингридиент</h4>
+<h4>Інгредієнт</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
         <form asp-action="IngridientCreate">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="Title" class="control-label">Название</label>
+                <label asp-for="Title" class="control-label">Назва</label>
                 <input asp-for="Title" class="form-control" />
                 <span asp-validation-for="Title" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Quantity" class="control-label">Количество</label>
+                <label asp-for="Quantity" class="control-label">Кількість</label>
                 <input asp-for="Quantity" class="form-control" />
                 <span asp-validation-for="Quantity" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Unit" class="control-label">Единица</label>
+                <label asp-for="Unit" class="control-label">Одиниця виміру</label>
                 <input asp-for="Unit" class="form-control" />
                 <span asp-validation-for="Unit" class="text-danger"></span>
             </div>

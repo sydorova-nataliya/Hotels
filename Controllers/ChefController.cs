@@ -16,10 +16,12 @@ namespace hotelcourseworkV2.Controllers
         [Authorize(Roles = "Повар в отеле")]
         public IActionResult Chef()
         {
-            ViewData["Menu"] = _context.menus.Include(h => h.Hotel).ToList();
+            ViewData["Menu"] = _context.menus.Include(h=>h.Hotel).Include(md => md.MenuDishes).ToList();
             ViewData["Ingridient"] = _context.ingredients.ToList();
-            ViewData["Composition"] = _context.compositions.ToList();
-            ViewData["Dish"] = _context.dishes.ToList();
+            ViewData["Dish"] =  _context.dishes
+                                       .Include(d => d.Compositions)
+                                       .ThenInclude(c => c.Ingredient)
+                                       .ToList();
             return View();
         }
     }

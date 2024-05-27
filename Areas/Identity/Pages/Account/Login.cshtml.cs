@@ -139,6 +139,10 @@ namespace hotelcourseworkV2.Areas.Identity.Pages.Account
                     {
                         return RedirectToAction("Chef", "Chef");
                     }
+                    else if (roles.Contains("Горничные"))
+                    {
+                        return RedirectToAction("Cleaner", "Cleaner");
+                    }
 
                     _logger.LogInformation("User logged in.");
                     return LocalRedirect(returnUrl);

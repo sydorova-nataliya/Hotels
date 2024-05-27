@@ -1,0 +1,42 @@
+<!-- Views/Reserve/ReserveDishList.cshtml -->
+@model IEnumerable<hotelcourseworkV2.ViewModels.CreateReserveDishViewModel>
+@{
+    ViewData["Title"] = "Список замовлень";
+}
+
+<h2 class="text-center mt-4">@ViewData["Title"]</h2>
+
+<div class="container mt-4">
+    <table class="table table-striped table-bordered">
+        <thead class="thead-dark">
+            <tr>
+                <th>Кімната</th>
+                <th>Назва отелю</th>
+                <th>Дата замовлення</th>
+                <th>Коментарі</th>
+                <th>Загальна ціна</th>
+                <th>Страви</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var reservation in Model)
+            {
+                <tr>
+                    <td>@reservation.RoomNumber</td>
+                    <td>@reservation.HotelName</td>
+                    <td>@reservation.BookingDate.ToString("dd-MM-yyyy")</td>
+                    <td>@reservation.Description</td>
+                    <td>@reservation.Price.ToString("0.00") грн</td>
+                    <td>
+                        <ul>
+                            @foreach (var dish in reservation.MenuDishes)
+                            {
+                                <li>@dish.Title - @dish.Price грн</li>
+                            }
+                        </ul>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

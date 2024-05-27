@@ -16,10 +16,23 @@ namespace hotelcourseworkV2.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index(string searchString)
         {
-            ViewData["Hotel"] = _context.hotels.Include(o => o.Owner).ToList();
+
+             var hotels = from h in _context.hotels.Include(h => h.Owner)
+                         select h;
+
+            ViewBag.CurrentFilter = searchString;
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                hotels = hotels.Where(h => h.Name.Contains(searchString) || h.City.Contains(searchString));
+            }
+            
+            // Передача параметров поиска и фильтрации в представление
+            ViewData["Hotel"] = await hotels.ToListAsync();
             return View();
+
         }
 
         public IActionResult Privacy()

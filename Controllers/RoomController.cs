@@ -14,10 +14,23 @@ namespace hotelcourseworkV2.Controllers
         }
 
         [HttpGet]
+        public IActionResult GetRoomPrice(int typeRoomId)
+        {
+            var roomType = _context.typeRooms.FirstOrDefault(rt => rt.Id == typeRoomId);
+            if (roomType == null)
+            {
+                return NotFound();
+            }
+
+            return Json(new { price = roomType.Price });
+        }
+
+        [HttpGet]
         public IActionResult CreateRoom()
         {
+            var typeRooms = _context.typeRooms.ToList();
             ViewBag.HotelId = new SelectList(_context.hotels.ToList(), "Id", "Name");
-            ViewBag.TypeRoomId = new SelectList(_context.typeRooms.ToList(), "Id", "Name");
+            ViewBag.TypeRoomId = new SelectList(typeRooms, "Id", "Name");
             return View();
         }
 

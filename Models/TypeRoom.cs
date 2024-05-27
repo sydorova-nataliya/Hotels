@@ -12,5 +12,7 @@ namespace hotelcourseworkV2.Models
         public int Id { get; set; }
         [Column("name_type_room")]
         public string Name { get; set; }
+        [Column("price_room")]
+        public decimal Price{get;set;}
     }
 }

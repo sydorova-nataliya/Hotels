@@ -1,0 +1,41 @@
+@model IEnumerable<dynamic>
+
+@{
+    ViewData["Title"] = "Рохрахунок среднього прибутку за місяць";
+}
+
+<div class="container mt-4">
+    <h2>@ViewData["Title"]</h2>
+    <canvas id="revenueChart"></canvas>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var ctx = document.getElementById('revenueChart').getContext('2d');
+            var chartData = {
+                labels: @Html.Raw(Json.Serialize(Model.Select(m => $"{m.Month}/{m.Year}"))),
+                datasets: [{
+                    label: 'Середній прибуток за місяць',
+                    data: @Html.Raw(Json.Serialize(Model.Select(m => m.TotalRevenue))),
+                    backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                    borderColor: 'rgba(54, 162, 235, 1)',
+                    borderWidth: 1
+                }]
+            };
+
+            var revenueChart = new Chart(ctx, {
+                type: 'bar',
+                data: chartData,
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        });
+    </script>
+}

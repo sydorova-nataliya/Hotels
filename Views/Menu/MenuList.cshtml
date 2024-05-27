@@ -1,40 +1,199 @@
 ﻿@model IEnumerable<hotelcourseworkV2.Models.Menu>
 
 <div class="container">
-    <h1>Меню</h1>
-
-    <p>
-        <a asp-controller="Menu" asp-action="MenuCreate" class="btn btn-primary">Добавить меню</a>
-    </p>
-
-    <div class="card">
-        <div class="card-body">
-            <div class="table-responsive">
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th>@Html.DisplayNameFor(model => model.Hotel)</th>
-                            <th>@Html.DisplayNameFor(model => model.Dish)</th>
-                            <th>@Html.DisplayNameFor(model => model.Price)</th>
-                            <th></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        @foreach (var item in Model)
+    <h1 class="my-4 text-center">Меню</h1>
+    @if (User.IsInRole("Повар в отеле"))
+    {
+        <p class="text-center">
+            <a asp-controller="Menu" asp-action="MenuCreate" class="btn btn-primary">Додати меню</a>
+        </p>
+    }
+    @if (Model != null && Model.Any())
+    {
+        <div class="row">
+            @foreach (var menu in Model)
+            {
+                <div class="col-12 mb-4">
+                    <div class="card w-100 border-0 shadow-sm">
+                        <div class="card-header bg-primary text-white text-center">
+                            <h5 class="card-title mb-0">@menu.Hotel.Name</h5>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">Страви:</h5>
+                            @if (menu.MenuDishes != null && menu.MenuDishes.Any())
+                            {
+                                <ul class="list-group list-group-flush">
+                                    @foreach (var menudish in menu.MenuDishes)
+                                    {
+                                        <li class="list-group-item d-flex align-items-center justify-content-between">
+                                            <div class="d-flex align-items-center">
+                                                <img src="https://img.freepik.com/premium-vector/roast-chicken-on-a-plate-black-and-white-vector-illustration_1039458-920.jpg"
+                                                    class="img-thumbnail mr-3" style="height: 100px; width: 100px;">
+                                                <div>
+                                                    @if (menudish != null && menudish.Dish != null)
+                                                    {
+                                                        <p class="mb-0"><strong>@menudish.Dish.Title</strong> - Вага: @menudish.Dish.Weight
+                                                            | Ціна: @menudish.Dish.Price ₴</p>
+                                                    }
+                                                </div>
+                                            </div>
+                                            <div class="btn-group">
+                                                @if (User.IsInRole("Повар в отеле"))
+                                                {
+                                                    <form asp-controller="Menu" asp-action="MenuDishDelete" method="post" class="ml-2">
+                                                        <input type="hidden" name="id" value="@menudish.Id" />
+                                                        <button type="submit" class="btn btn-danger">
+                                                            <i class="fas fa-trash-alt"></i> Видалити
+                                                        </button>
+                                                    </form>
+                                                }
+                                            </div>
+                                        </li>
+                                    }
+                                </ul>
+                            }
+                            else
+                            {
+                                <p class="card-text">Страви відсутні.</p>
+                            }
+                            @if (User.IsInRole("Повар в отеле"))
+                            {
+                                <div class="btn-group w-100 mt-3">
+                                    <form asp-controller="Menu" asp-action="MenuDelete" method="post" class="w-50 pr-1">
+                                        <input type="hidden" name="id" value="@menu.Id" />
+                                        <button type="submit" class="btn btn-danger w-100">
+                                            <i class="fas fa-trash-alt"></i> Видалити меню
+                                        </button>
+                                    </form>
+                                    <a asp-controller="Menu" asp-action="EditMenu" asp-route-id="@menu.Id"
+                                        class="btn btn-success w-50 pl-1">Редагувати</a>
+                                </div>
+                            }
+                        </div>
+                        @if (User.IsInRole("Зарегистрированный клиент"))
                         {
-                            <tr>
-                                <td>@Html.DisplayFor(modelItem => item.Hotel.Name)</td>
-                                <td>@Html.DisplayFor(modelItem => item.Dish.Title)</td>
-                                <td>@Html.DisplayFor(modelItem => item.Price)</td>
-                                <td>
-                                    <a asp-controller = "Menu" asp-action="MenuDelete" asp-route-id="@item.Id" class="btn btn-danger">Удалить</a>
-                                </td>
-                            </tr>
+                            <a asp-controller="Reserve" asp-action="ReserveDishCreate" asp-route-menuid="@menu.Id" class="btn btn-success">Замовити</a>
                         }
-                    </tbody>
-                </table>
-            </div>
+                    </div>
+                </div>
+            }
         </div>
-    </div>
+    }
+    else
+    {
+        <div class="alert alert-info text-center" role="alert">
+            Меню відсутнє.
+        </div>
+    }
 </div>
 
+<style>
+    .container {
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    h1 {
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 40px;
+        color: #333;
+    }
+
+    .card {
+        transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    }
+
+    .card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .card-title {
+        font-size: 1.25rem;
+        font-weight: bold;
+        color: #fff;
+    }
+
+    .card-header {
+        background-color: #007bff;
+        text-align: center;
+    }
+
+    .card-body {
+        padding: 20px;
+    }
+
+    .card-text {
+        font-size: 1rem;
+        color: #555;
+    }
+
+    .img-thumbnail {
+        height: 50px;
+        width: 50px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+    .btn {
+        font-size: 1rem;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+    }
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+        border-color: #0056b3;
+    }
+
+    .btn-danger {
+        background-color: #dc3545;
+        border-color: #dc3545;
+    }
+
+    .btn-danger:hover {
+        background-color: #c82333;
+        border-color: #bd2130;
+    }
+
+    .btn-success {
+        background-color: #28a745;
+        border-color: #28a745;
+    }
+
+    .btn-success:hover {
+        background-color: #218838;
+        border-color: #1e7e34;
+    }
+
+    .list-group-item {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        border: none;
+    }
+
+    .list-group-item img {
+        margin-right: 15px;
+    }
+
+    .list-group-item p {
+        margin-bottom: 0;
+        font-size: 1rem;
+    }
+
+    .btn-group {
+        display: flex;
+        gap: 10px;
+    }
+</style>
+
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+}

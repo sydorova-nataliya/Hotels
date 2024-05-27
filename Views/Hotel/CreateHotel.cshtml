@@ -1,52 +1,68 @@
 ﻿@model hotelcourseworkV2.Models.Hotel
 
 @{
-    ViewData["Title"] = "Создать отель";
+    ViewData["Title"] = "Створити готель";
 }
 
-<h4>Создать отель</h4>
 
-<hr />
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <form asp-action="CreateHotel" method="post" enctype="multipart/form-data">
+                    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
 
-<div class="row">
-  <div class="col-md-4">
-    <form asp-action="CreateHotel" method="post">
-      <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <h4 class="text-center mt-4">@ViewData["Title"]</h4>
+                    <hr />
+                    <div class="form-group">
+                        <label asp-for="Name" class="control-label">Назва</label>
+                        <input asp-for="Name" class="form-control" placeholder="Введіть назву готелю" required />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
 
-      <div class="form-group">
-        <label asp-for="Name" class="control-label"></label>
-        <input asp-for="Name" class="form-control" required />
-        <span asp-validation-for="Name" class="text-danger"></span>
-      </div>
+                    <div class="form-group">
+                        <label asp-for="Stars" class="control-label">Зірки</label>
+                        <input asp-for="Stars" class="form-control" placeholder="Введіть рейтинг готелю" required />
+                        <span asp-validation-for="Stars" class="text-danger"></span>
+                    </div>
 
-      <div class="form-group">
-        <label asp-for="Stars" class="control-label"></label>
-        <input asp-for="Stars" class="form-control" required />
-        <span asp-validation-for="Stars" class="text-danger"></span>
-      </div>
+                    <div class="form-group">
+                        <label asp-for="City" class="control-label">Місто</label>
+                        <input asp-for="City" class="form-control" placeholder="Введіть місто" required />
+                        <span asp-validation-for="City" class="text-danger"></span>
+                    </div>
 
-      <div class="form-group">
-        <label asp-for="City" class="control-label"></label>
-        <input asp-for="City" class="form-control" required />
-        <span asp-validation-for="City" class="text-danger"></span>
-      </div>
+                    <div class="form-group">
+                        <label asp-for="Street" class="control-label">Вулиця</label>
+                        <input asp-for="Street" class="form-control" placeholder="Введіть вулицю" required />
+                        <span asp-validation-for="Street" class="text-danger"></span>
+                    </div>
 
-      <div class="form-group">
-        <label asp-for="Street" class="control-label"></label>
-        <input asp-for="Street" class="form-control" required />
-        <span asp-validation-for="Street" class="text-danger"></span>
-      </div>
+                    <div class="form-group">
+                        <label asp-for="ImagePath" class="control-label">Зображення</label>
+                        <input type="file" name="imageFile" class="form-control" required />
+                        <span asp-validation-for="ImagePath" class="text-danger"></span>
+                    </div>
 
-      <div class="form-group">
-        <label asp-for="OwnerId" class="control-label">Директор</label>
-        <select asp-for="OwnerId" class="form-control" asp-items="ViewBag.OwnerId"></select>
-      </div>
+                    <div class="form-group">
+                        <label asp-for="OwnerId" class="control-label">Директор</label>
+                        <select asp-for="OwnerId" class="form-control">
+                            <option value="">Оберіть директора</option>
+                            @foreach (var item in (SelectList)ViewBag.OwnerId)
+                            {
+                                <option value="@item.Value">@item.Text</option>
+                            }
+                        </select>
+                        <span asp-validation-for="OwnerId" class="text-danger"></span>
+                    </div>
 
-      <div class="form-group">
-        <button type="submit" class="btn btn-primary">Добавить</button>
-      </div>
-    </form>
-  </div>
+                    <div class="form-group text-center">
+                        <button type="submit" class="btn btn-primary btn-block">Додати</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 </div>
 
 @section Scripts {

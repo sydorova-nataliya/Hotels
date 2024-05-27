@@ -13,11 +13,13 @@ namespace hotelcourseworkV2.Models
 
         [Column("id_service")]
         [ForeignKey("TypeService")]
+        [Display(Name = "Тип сервісу")]
         public int TypeServiceId { get; set; }
         public Services TypeService { get; set; }
 
         [Column("amount_service")]
         [DefaultValue(1)]
+        [Display(Name = "Кількість")]
         public int Amount { get; set; }
 
         [Column("price")]

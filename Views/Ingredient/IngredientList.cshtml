@@ -1,27 +1,26 @@
 ﻿@model IEnumerable<hotelcourseworkV2.Models.Ingredient>
 
 @{
-    ViewData["Title"] = "IngredientList";
+    ViewData["Title"] = "Ingredient List";
 }
 
+<div class="container my-5">
+    <h1 class="text-center mb-4">Список інгредієнтів</h1>
 
-<div class="container">
-    <h1>Список ингредиентов</h1>
+    <div class="d-flex justify-content-end mb-3">
+        <a asp-controller="Ingredient" asp-action="IngridientCreate" class="btn btn-primary">Додати інгредієнти</a>
+    </div>
 
-    <p>
-        <a asp-controller="Ingredient" asp-action="IngridientCreate" class="btn btn-primary">Добавить ингредиенты</a>
-    </p>
-
-    <div class="card">
+    <div class="card shadow-sm">
         <div class="card-body">
             <div class="table-responsive">
-                <table class="table">
-                    <thead>
+                <table class="table table-bordered table-striped">
+                    <thead class="thead-dark">
                         <tr>
-                            <th>@Html.DisplayNameFor(model => model.Title)</th>
-                            <th>@Html.DisplayNameFor(model => model.Quantity)</th>
-                            <th>@Html.DisplayNameFor(model => model.Unit)</th>
-                            <th></th>
+                            <th scope="col">Назва</th>
+                            <th scope="col">Кількість</th>
+                            <th scope="col">Юніт</th>
+                            <th scope="col">Дії</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -32,7 +31,7 @@
                                 <td>@Html.DisplayFor(modelItem => item.Quantity)</td>
                                 <td>@Html.DisplayFor(modelItem => item.Unit)</td>
                                 <td>
-                                    <a asp-controller = "IngridientDelete" asp-action="IngridientDelete" asp-route-id="@item.Id" class="btn btn-danger">Удалить</a>
+                                    <a asp-controller="Ingredient" asp-action="IngridientDelete" asp-route-id="@item.Id" class="btn btn-danger">Видалити</a>
                                 </td>
                             </tr>
                         }
