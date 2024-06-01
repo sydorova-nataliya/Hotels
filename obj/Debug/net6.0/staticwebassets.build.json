@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ehgeLyi5Dw+TKWVWV3KsDPxkf5gA3Ld3/C+deGnOHC8=",
+  "Hash": "+74M9EzDx12YhIZ1sOsasnwHd42ndw5rFD3Z85SRba4=",
   "Source": "hotelcourseworkV2",
   "BasePath": "_content/hotelcourseworkV2",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "hotelcourseworkV2\\wwwroot",
       "Source": "hotelcourseworkV2",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "Pattern": "**"
     }
@@ -1157,10 +1157,10 @@
       "OriginalItemSpec": "C:\\Users\\Maks\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\obj\\Debug\\net6.0\\scopedcss\\bundle\\hotelcourseworkV2.styles.css",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\obj\\Debug\\net6.0\\scopedcss\\bundle\\hotelcourseworkV2.styles.css",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "hotelcourseworkV2.styles.css",
       "AssetKind": "All",
@@ -1173,13 +1173,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\obj\\Debug\\net6.0\\scopedcss\\bundle\\hotelcourseworkV2.styles.css"
+      "OriginalItemSpec": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\obj\\Debug\\net6.0\\scopedcss\\bundle\\hotelcourseworkV2.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\hotelcourseworkV2.bundle.scp.css",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\hotelcourseworkV2.bundle.scp.css",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "hotelcourseworkV2.bundle.scp.css",
       "AssetKind": "All",
@@ -1192,13 +1192,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\hotelcourseworkV2.bundle.scp.css"
+      "OriginalItemSpec": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\hotelcourseworkV2.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\css\\all.css",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\css\\all.css",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "css/all.css",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\css\\all.css"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\css\\listrooms.css",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\css\\listrooms.css",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "css/listrooms.css",
       "AssetKind": "All",
@@ -1233,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\css\\listrooms.css"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\css\\reserve.css",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\css\\reserve.css",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "css/reserve.css",
       "AssetKind": "All",
@@ -1252,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\css\\reserve.css"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\css\\site.css",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\css\\site.css",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -1271,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\favicon.ico",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\favicon.ico",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -1290,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\images\\images.jpg",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\images\\images.jpg",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "images/images.jpg",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\images\\images.jpg"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\img\\negresco.gif",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\img\\negresco.gif",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "img/negresco.gif",
       "AssetKind": "All",
@@ -1328,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\img\\negresco.gif"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\js\\site.js",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\js\\site.js",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1347,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1366,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1385,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1404,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1423,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1442,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1461,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1480,10 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1499,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1518,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1537,10 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1556,10 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1575,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1594,10 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1613,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1651,10 +1651,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1670,10 +1670,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1689,10 +1689,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1708,10 +1708,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1727,10 +1727,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1746,10 +1746,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1765,10 +1765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1784,10 +1784,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1803,10 +1803,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1822,10 +1822,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1841,10 +1841,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1860,10 +1860,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1879,10 +1879,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1898,10 +1898,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1917,10 +1917,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1936,10 +1936,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1974,10 +1974,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1993,10 +1993,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -2012,10 +2012,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -2031,10 +2031,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -2050,10 +2050,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -2069,10 +2069,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -2088,10 +2088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -2107,10 +2107,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2126,10 +2126,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2145,10 +2145,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2164,10 +2164,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2183,10 +2183,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2202,10 +2202,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2221,10 +2221,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2240,10 +2240,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -2259,10 +2259,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2278,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2297,10 +2297,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2316,10 +2316,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2335,10 +2335,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2354,10 +2354,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2373,10 +2373,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2392,10 +2392,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2411,10 +2411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "hotelcourseworkV2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
+      "ContentRoot": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\wwwroot\\",
       "BasePath": "_content/hotelcourseworkV2",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
