@@ -10749,11 +10749,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\hotelcourseworkV2.csproj",
+      "projectUniqueName": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\hotelcourseworkV2.csproj",
       "projectName": "hotelcourseworkV2",
-      "projectPath": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\hotelcourseworkV2.csproj",
+      "projectPath": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\hotelcourseworkV2.csproj",
       "packagesPath": "C:\\Users\\Maks\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Maks\\Desktop\\hotelV2\\hotelcourseworkV2\\obj\\",
+      "outputPath": "Z:\\Дипломы Курсачи\\Сидорова диплом\\hotelV2\\hotelcourseworkV2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Users\\Maks\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder",

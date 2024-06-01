@@ -17,7 +17,7 @@ namespace hotelcourseworkV2.Controllers
         [HttpGet]
         public IActionResult HotelRoomList(int id)
         {
-            var room = _context.hotelRooms.Include(t=>t.typeRoom).ToList();
+            var room = _context.hotelRooms.Where(h => h.HotelId == id).Include(t=>t.typeRoom).ToList();
             var reservedRoomIds = _context.reserves.Select(r => r.HotelTypeRoomId).Distinct().ToList();
             var roomList = _context.hotelRooms.Where(r => r.HotelId == id && !reservedRoomIds.Contains(r.Id)).Include(t => t.typeRoom).ToList();
             ViewBag.AllRooms = _context.hotelRooms.Where(c => c.HotelId == id).Count();

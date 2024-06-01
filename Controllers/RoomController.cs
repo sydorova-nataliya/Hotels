@@ -1,4 +1,5 @@
-﻿using hotelcourseworkV2.Data;
+﻿using System.Security.Claims;
+using hotelcourseworkV2.Data;
 using hotelcourseworkV2.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -28,8 +29,9 @@ namespace hotelcourseworkV2.Controllers
         [HttpGet]
         public IActionResult CreateRoom()
         {
+            var userId =  User.FindFirstValue(ClaimTypes.NameIdentifier);
             var typeRooms = _context.typeRooms.ToList();
-            ViewBag.HotelId = new SelectList(_context.hotels.ToList(), "Id", "Name");
+            ViewBag.HotelId = new SelectList(_context.hotels.Where(h => h.OwnerId == userId).ToList(), "Id", "Name");
             ViewBag.TypeRoomId = new SelectList(typeRooms, "Id", "Name");
             return View();
         }
