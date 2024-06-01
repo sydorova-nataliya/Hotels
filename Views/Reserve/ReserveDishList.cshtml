@@ -14,7 +14,6 @@
                 <th>Назва отелю</th>
                 <th>Дата замовлення</th>
                 <th>Коментарі</th>
-                <th>Загальна ціна</th>
                 <th>Страви</th>
             </tr>
         </thead>
@@ -26,7 +25,7 @@
                     <td>@reservation.HotelName</td>
                     <td>@reservation.BookingDate.ToString("dd-MM-yyyy")</td>
                     <td>@reservation.Description</td>
-                    <td>@reservation.Price.ToString("0.00") грн</td>
+                    
                     <td>
                         <ul>
                             @foreach (var dish in reservation.MenuDishes)
